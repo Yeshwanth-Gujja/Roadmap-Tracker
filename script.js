@@ -3,6 +3,7 @@
   const KEYS = { data: 'fsai-final-data-v1', config: 'fsai-final-github-v1', theme: 'fsai-final-theme-v1' };
   const $ = id => document.getElementById(id),
     copy = x => JSON.parse(JSON.stringify(x));
+
   let roadmap = [],
     undoStack = [],
     redoStack = [],
@@ -11,7 +12,9 @@
     editingParent = null,
     syncing = false;
 
-  function uid() { return 'custom-' + Date.now().toString(36) + '-' + Math.random().toString(36).slice(2, 8) }
+  function uid() {
+    return 'custom-' + Date.now().toString(36) + '-' + Math.random().toString(36).slice(2, 8)
+  }
 
   function normalize(list) {
     return (Array.isArray(list) ? list : []).map(n => ({
@@ -110,7 +113,7 @@
     fn();
     saveLocal();
     render();
-    githubCommit(githubMessage)
+    queueGithubCommit(githubMessage);
   }
 
   function toast(msg) {
@@ -128,6 +131,7 @@
       kind === 'busy' ? 'busy' :
       kind === 'err' ? 'err' : ''
     );
+
     b.textContent =
       kind === 'busy' ? 'Saving to GitHub…' :
       kind === 'ok' ? 'GitHub synced' :
@@ -339,7 +343,7 @@
     remember();
     saveLocal();
     render();
-    githubCommit(msg)
+    queueGithubCommit(msg);
   }
 
   function openEditor(m, n, p) {
@@ -450,7 +454,7 @@
     roadmap = undoStack.pop();
     saveLocal();
     render();
-    githubCommit('Undo change');
+    queueGithubCommit('Undo change');
     toast('Undone')
   }
 
@@ -461,7 +465,7 @@
     roadmap = redoStack.pop();
     saveLocal();
     render();
-    githubCommit('Redo change');
+    queueGithubCommit('Redo change');
     toast('Redone')
   }
 
@@ -479,7 +483,6 @@
 
   async function gh(path, opts = {}) {
     const c = config();
-
     if (!c) throw Error('GitHub is not connected');
 
     const r = await fetch('https://api.github.com' + path, {
@@ -490,17 +493,18 @@
         'Authorization': 'Bearer ' + c.token,
         'X-GitHub-Api-Version': '2022-11-28',
         'Content-Type': 'application/json',
-        'Cache-Control': 'no-cache',
-        'Pragma': 'no-cache',
         ...(opts.headers || {})
       }
     });
 
     if (!r.ok) {
-      throw Error((await r.text()).slice(0, 400))
+      const text = await r.text();
+      const error = Error(text.slice(0, 400));
+      error.status = r.status;
+      throw error;
     }
 
-    return r.status === 204 ? null : r.json()
+    return r.status === 204 ? null : r.json();
   }
 
   function b64(s) {
@@ -530,13 +534,7 @@
       const cacheBust = Date.now().toString();
 
       return await gh(
-        `/repos/${encodeURIComponent(c.owner)}/${encodeURIComponent(c.repo)}/contents/roadmap.json?ref=${encodeURIComponent(c.branch)}&_=${cacheBust}`,
-        {
-          headers: {
-            'Cache-Control': 'no-cache',
-            'Pragma': 'no-cache'
-          }
-        }
+        `/repos/${encodeURIComponent(c.owner)}/${encodeURIComponent(c.repo)}/contents/roadmap.json?ref=${encodeURIComponent(c.branch)}&_=${cacheBust}`
       );
 
     } catch (e) {
@@ -547,8 +545,22 @@
         throw e;
       }
 
-      return null
+      return null;
     }
+  }
+
+  let githubQueue = Promise.resolve();
+  let githubStartup = Promise.resolve();
+
+  function queueGithubCommit(message) {
+    githubQueue = githubQueue
+      .then(() => githubStartup)
+      .then(() => githubCommit(message))
+      .catch(e => {
+        console.error('GitHub queue error:', e);
+      });
+
+    return githubQueue;
   }
 
   async function githubCommit(message = 'Update roadmap') {
@@ -560,35 +572,55 @@
     setSync('busy');
 
     try {
-      // Get the CURRENT SHA immediately before updating.
-      const file = await getRemote();
+      let file = await getRemote();
 
-      const body = {
-        message: 'Roadmap: ' + message,
-        content: b64(
-          JSON.stringify(roadmap, null, 2) + '\n'
-        ),
-        branch: c.branch
+      const makeBody = remoteFile => {
+        const body = {
+          message: 'Roadmap: ' + message,
+          content: b64(
+            JSON.stringify(roadmap, null, 2) + '\n'
+          ),
+          branch: c.branch
+        };
+
+        if (remoteFile?.sha) {
+          body.sha = remoteFile.sha;
+        }
+
+        return body;
       };
 
-      if (file?.sha) {
-        body.sha = file.sha
-      }
+      try {
+        await gh(
+          `/repos/${encodeURIComponent(c.owner)}/${encodeURIComponent(c.repo)}/contents/roadmap.json`,
+          {
+            method: 'PUT',
+            body: JSON.stringify(makeBody(file))
+          }
+        );
 
-      await gh(
-        `/repos/${encodeURIComponent(c.owner)}/${encodeURIComponent(c.repo)}/contents/roadmap.json`,
-        {
-          method: 'PUT',
-          body: JSON.stringify(body)
-        }
-      );
+      } catch (e) {
+        // If another write changed roadmap.json between GET and PUT,
+        // fetch the newest SHA and retry once.
+        if (e.status !== 409) throw e;
+
+        file = await getRemote();
+
+        await gh(
+          `/repos/${encodeURIComponent(c.owner)}/${encodeURIComponent(c.repo)}/contents/roadmap.json`,
+          {
+            method: 'PUT',
+            body: JSON.stringify(makeBody(file))
+          }
+        );
+      }
 
       localStorage.setItem(
         'fsai-last-sync',
         new Date().toISOString()
       );
 
-      setSync('ok')
+      setSync('ok');
 
     } catch (e) {
       setSync('err');
@@ -675,9 +707,11 @@
       );
 
       if (!r.ok) {
-        throw Error(
+        const error = Error(
           (await r.text()).slice(0, 350)
-        )
+        );
+        error.status = r.status;
+        throw error;
       }
 
       localStorage.setItem(
@@ -687,8 +721,10 @@
 
       close('githubModal');
 
-      await pull(false);
-      await githubCommit(
+      githubStartup = pull(false);
+      await githubStartup;
+
+      await queueGithubCommit(
         'Connect / save current state'
       );
 
@@ -764,7 +800,7 @@
       saveLocal();
       render();
 
-      await githubCommit(
+      await queueGithubCommit(
         'Restore version ' + sha.slice(0, 7)
       );
 
@@ -847,6 +883,7 @@
   $('undo').onclick = undo;
   $('redo').onclick = redo;
   $('export').onclick = exportData;
+
   $('addRoot').onclick = () =>
     openEditor('add', null, null);
 
@@ -975,7 +1012,7 @@
     render();
 
     if (config()) {
-      pull(false)
+      githubStartup = pull(false);
     }
   }
 
