@@ -7,6 +7,7 @@
     "status": "not-started",
     "difficulty": "medium",
     "priority": "high",
+    "targetDate": "",
     "notes": "",
     "resources": [],
     "children": [
@@ -18,6 +19,7 @@
         "status": "not-started",
         "difficulty": "medium",
         "priority": "high",
+        "targetDate": "",
         "notes": "",
         "resources": [],
         "children": [
@@ -29,6 +31,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -41,6 +44,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -53,6 +57,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -65,6 +70,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -77,6 +83,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -89,6 +96,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -101,6 +109,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -115,6 +124,7 @@
         "status": "not-started",
         "difficulty": "medium",
         "priority": "high",
+        "targetDate": "",
         "notes": "",
         "resources": [],
         "children": [
@@ -126,6 +136,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -138,6 +149,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -150,6 +162,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -162,6 +175,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -176,6 +190,7 @@
         "status": "not-started",
         "difficulty": "medium",
         "priority": "high",
+        "targetDate": "",
         "notes": "",
         "resources": [],
         "children": [
@@ -187,6 +202,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -199,6 +215,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -211,6 +228,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -223,6 +241,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -235,6 +254,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -249,6 +269,7 @@
         "status": "not-started",
         "difficulty": "medium",
         "priority": "high",
+        "targetDate": "",
         "notes": "",
         "resources": [],
         "children": [
@@ -260,6 +281,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -272,6 +294,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -284,6 +307,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -296,6 +320,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -308,6 +333,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -324,6 +350,7 @@
     "status": "not-started",
     "difficulty": "medium",
     "priority": "high",
+    "targetDate": "",
     "notes": "",
     "resources": [],
     "children": [
@@ -335,6 +362,7 @@
         "status": "not-started",
         "difficulty": "medium",
         "priority": "high",
+        "targetDate": "",
         "notes": "",
         "resources": [],
         "children": [
@@ -346,6 +374,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -358,6 +387,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -370,6 +400,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -384,6 +415,7 @@
         "status": "not-started",
         "difficulty": "medium",
         "priority": "high",
+        "targetDate": "",
         "notes": "",
         "resources": [],
         "children": [
@@ -395,6 +427,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -407,6 +440,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -419,6 +453,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -431,6 +466,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -445,6 +481,7 @@
         "status": "not-started",
         "difficulty": "medium",
         "priority": "high",
+        "targetDate": "",
         "notes": "",
         "resources": [],
         "children": [
@@ -456,6 +493,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -468,6 +506,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -480,6 +519,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -492,6 +532,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -504,6 +545,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -516,6 +558,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": [
@@ -527,6 +570,7 @@
                 "status": "not-started",
                 "difficulty": "medium",
                 "priority": "medium",
+                "targetDate": "",
                 "notes": "",
                 "resources": [],
                 "children": [
@@ -538,6 +582,7 @@
                     "status": "not-started",
                     "difficulty": "medium",
                     "priority": "medium",
+                    "targetDate": "",
                     "notes": "",
                     "resources": [],
                     "children": []
@@ -550,6 +595,7 @@
                     "status": "not-started",
                     "difficulty": "medium",
                     "priority": "medium",
+                    "targetDate": "",
                     "notes": "",
                     "resources": [],
                     "children": []
@@ -562,6 +608,7 @@
                     "status": "not-started",
                     "difficulty": "medium",
                     "priority": "medium",
+                    "targetDate": "",
                     "notes": "",
                     "resources": [],
                     "children": []
@@ -574,6 +621,7 @@
                     "status": "not-started",
                     "difficulty": "medium",
                     "priority": "medium",
+                    "targetDate": "",
                     "notes": "",
                     "resources": [],
                     "children": []
@@ -590,6 +638,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": [
@@ -601,6 +650,7 @@
                 "status": "not-started",
                 "difficulty": "medium",
                 "priority": "medium",
+                "targetDate": "",
                 "notes": "",
                 "resources": [],
                 "children": [
@@ -612,6 +662,7 @@
                     "status": "not-started",
                     "difficulty": "medium",
                     "priority": "medium",
+                    "targetDate": "",
                     "notes": "",
                     "resources": [],
                     "children": []
@@ -624,6 +675,7 @@
                     "status": "not-started",
                     "difficulty": "medium",
                     "priority": "medium",
+                    "targetDate": "",
                     "notes": "",
                     "resources": [],
                     "children": []
@@ -640,6 +692,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": [
@@ -651,6 +704,7 @@
                 "status": "not-started",
                 "difficulty": "medium",
                 "priority": "medium",
+                "targetDate": "",
                 "notes": "",
                 "resources": [],
                 "children": []
@@ -663,6 +717,7 @@
                 "status": "not-started",
                 "difficulty": "medium",
                 "priority": "medium",
+                "targetDate": "",
                 "notes": "",
                 "resources": [],
                 "children": []
@@ -675,6 +730,7 @@
                 "status": "not-started",
                 "difficulty": "medium",
                 "priority": "medium",
+                "targetDate": "",
                 "notes": "",
                 "resources": [],
                 "children": []
@@ -689,6 +745,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": [
@@ -700,6 +757,7 @@
                 "status": "not-started",
                 "difficulty": "medium",
                 "priority": "medium",
+                "targetDate": "",
                 "notes": "",
                 "resources": [],
                 "children": []
@@ -712,6 +770,7 @@
                 "status": "not-started",
                 "difficulty": "medium",
                 "priority": "medium",
+                "targetDate": "",
                 "notes": "",
                 "resources": [],
                 "children": []
@@ -724,6 +783,7 @@
                 "status": "not-started",
                 "difficulty": "medium",
                 "priority": "medium",
+                "targetDate": "",
                 "notes": "",
                 "resources": [],
                 "children": []
@@ -736,6 +796,7 @@
                 "status": "not-started",
                 "difficulty": "medium",
                 "priority": "medium",
+                "targetDate": "",
                 "notes": "",
                 "resources": [],
                 "children": []
@@ -748,6 +809,7 @@
                 "status": "not-started",
                 "difficulty": "medium",
                 "priority": "medium",
+                "targetDate": "",
                 "notes": "",
                 "resources": [],
                 "children": []
@@ -762,6 +824,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": [
@@ -773,6 +836,7 @@
                 "status": "not-started",
                 "difficulty": "medium",
                 "priority": "medium",
+                "targetDate": "",
                 "notes": "",
                 "resources": [],
                 "children": []
@@ -785,6 +849,7 @@
                 "status": "not-started",
                 "difficulty": "medium",
                 "priority": "medium",
+                "targetDate": "",
                 "notes": "",
                 "resources": [],
                 "children": []
@@ -797,6 +862,7 @@
                 "status": "not-started",
                 "difficulty": "medium",
                 "priority": "medium",
+                "targetDate": "",
                 "notes": "",
                 "resources": [],
                 "children": []
@@ -815,6 +881,7 @@
     "status": "not-started",
     "difficulty": "medium",
     "priority": "high",
+    "targetDate": "",
     "notes": "",
     "resources": [],
     "children": [
@@ -826,6 +893,7 @@
         "status": "not-started",
         "difficulty": "medium",
         "priority": "high",
+        "targetDate": "",
         "notes": "",
         "resources": [],
         "children": [
@@ -837,6 +905,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -849,6 +918,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -861,6 +931,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -873,6 +944,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -885,6 +957,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -897,6 +970,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -911,6 +985,7 @@
         "status": "not-started",
         "difficulty": "medium",
         "priority": "high",
+        "targetDate": "",
         "notes": "",
         "resources": [],
         "children": [
@@ -922,6 +997,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -934,6 +1010,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -946,6 +1023,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -958,6 +1036,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -970,6 +1049,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -982,6 +1062,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -996,6 +1077,7 @@
         "status": "not-started",
         "difficulty": "medium",
         "priority": "high",
+        "targetDate": "",
         "notes": "",
         "resources": [],
         "children": [
@@ -1007,6 +1089,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -1019,6 +1102,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -1031,6 +1115,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -1043,6 +1128,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -1057,6 +1143,7 @@
         "status": "not-started",
         "difficulty": "medium",
         "priority": "high",
+        "targetDate": "",
         "notes": "",
         "resources": [],
         "children": [
@@ -1068,6 +1155,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -1080,6 +1168,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -1092,6 +1181,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -1104,6 +1194,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -1118,6 +1209,7 @@
         "status": "not-started",
         "difficulty": "medium",
         "priority": "high",
+        "targetDate": "",
         "notes": "",
         "resources": [],
         "children": [
@@ -1129,6 +1221,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -1141,6 +1234,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -1153,6 +1247,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -1167,6 +1262,7 @@
         "status": "not-started",
         "difficulty": "medium",
         "priority": "high",
+        "targetDate": "",
         "notes": "",
         "resources": [],
         "children": [
@@ -1178,6 +1274,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -1190,6 +1287,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -1202,6 +1300,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -1214,6 +1313,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -1228,6 +1328,7 @@
         "status": "not-started",
         "difficulty": "medium",
         "priority": "high",
+        "targetDate": "",
         "notes": "",
         "resources": [],
         "children": [
@@ -1239,6 +1340,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": [
@@ -1250,6 +1352,7 @@
                 "status": "not-started",
                 "difficulty": "medium",
                 "priority": "medium",
+                "targetDate": "",
                 "notes": "",
                 "resources": [],
                 "children": []
@@ -1262,6 +1365,7 @@
                 "status": "not-started",
                 "difficulty": "medium",
                 "priority": "medium",
+                "targetDate": "",
                 "notes": "",
                 "resources": [],
                 "children": []
@@ -1274,6 +1378,7 @@
                 "status": "not-started",
                 "difficulty": "medium",
                 "priority": "medium",
+                "targetDate": "",
                 "notes": "",
                 "resources": [],
                 "children": []
@@ -1288,6 +1393,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -1302,6 +1408,7 @@
         "status": "not-started",
         "difficulty": "medium",
         "priority": "high",
+        "targetDate": "",
         "notes": "",
         "resources": [],
         "children": [
@@ -1313,6 +1420,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -1325,6 +1433,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -1337,6 +1446,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -1349,6 +1459,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -1365,6 +1476,7 @@
     "status": "not-started",
     "difficulty": "medium",
     "priority": "high",
+    "targetDate": "",
     "notes": "",
     "resources": [],
     "children": [
@@ -1376,6 +1488,7 @@
         "status": "not-started",
         "difficulty": "medium",
         "priority": "high",
+        "targetDate": "",
         "notes": "",
         "resources": [],
         "children": [
@@ -1387,6 +1500,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -1399,6 +1513,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -1411,6 +1526,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -1423,6 +1539,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -1435,6 +1552,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": [
@@ -1446,6 +1564,7 @@
                 "status": "not-started",
                 "difficulty": "medium",
                 "priority": "medium",
+                "targetDate": "",
                 "notes": "",
                 "resources": [],
                 "children": []
@@ -1458,6 +1577,7 @@
                 "status": "not-started",
                 "difficulty": "medium",
                 "priority": "medium",
+                "targetDate": "",
                 "notes": "",
                 "resources": [],
                 "children": []
@@ -1470,6 +1590,7 @@
                 "status": "not-started",
                 "difficulty": "medium",
                 "priority": "medium",
+                "targetDate": "",
                 "notes": "",
                 "resources": [],
                 "children": []
@@ -1484,6 +1605,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -1498,6 +1620,7 @@
         "status": "not-started",
         "difficulty": "medium",
         "priority": "high",
+        "targetDate": "",
         "notes": "",
         "resources": [],
         "children": [
@@ -1509,6 +1632,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -1521,6 +1645,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -1533,6 +1658,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -1545,6 +1671,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -1559,6 +1686,7 @@
         "status": "not-started",
         "difficulty": "medium",
         "priority": "high",
+        "targetDate": "",
         "notes": "",
         "resources": [],
         "children": [
@@ -1570,6 +1698,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -1582,6 +1711,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -1594,6 +1724,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -1606,6 +1737,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -1622,6 +1754,7 @@
     "status": "not-started",
     "difficulty": "medium",
     "priority": "high",
+    "targetDate": "",
     "notes": "",
     "resources": [],
     "children": [
@@ -1633,6 +1766,7 @@
         "status": "not-started",
         "difficulty": "medium",
         "priority": "high",
+        "targetDate": "",
         "notes": "",
         "resources": [],
         "children": [
@@ -1644,6 +1778,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -1656,6 +1791,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -1668,6 +1804,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -1680,6 +1817,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -1694,6 +1832,7 @@
         "status": "not-started",
         "difficulty": "medium",
         "priority": "high",
+        "targetDate": "",
         "notes": "",
         "resources": [],
         "children": [
@@ -1705,6 +1844,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -1717,6 +1857,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -1729,6 +1870,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -1741,6 +1883,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -1753,6 +1896,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -1765,6 +1909,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -1779,6 +1924,7 @@
         "status": "not-started",
         "difficulty": "medium",
         "priority": "high",
+        "targetDate": "",
         "notes": "",
         "resources": [],
         "children": [
@@ -1790,6 +1936,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": [
@@ -1801,6 +1948,7 @@
                 "status": "not-started",
                 "difficulty": "medium",
                 "priority": "medium",
+                "targetDate": "",
                 "notes": "",
                 "resources": [],
                 "children": []
@@ -1813,6 +1961,7 @@
                 "status": "not-started",
                 "difficulty": "medium",
                 "priority": "medium",
+                "targetDate": "",
                 "notes": "",
                 "resources": [],
                 "children": []
@@ -1825,6 +1974,7 @@
                 "status": "not-started",
                 "difficulty": "medium",
                 "priority": "medium",
+                "targetDate": "",
                 "notes": "",
                 "resources": [],
                 "children": []
@@ -1837,6 +1987,7 @@
                 "status": "not-started",
                 "difficulty": "medium",
                 "priority": "medium",
+                "targetDate": "",
                 "notes": "",
                 "resources": [],
                 "children": []
@@ -1849,6 +2000,7 @@
                 "status": "not-started",
                 "difficulty": "medium",
                 "priority": "medium",
+                "targetDate": "",
                 "notes": "",
                 "resources": [],
                 "children": []
@@ -1861,6 +2013,7 @@
                 "status": "not-started",
                 "difficulty": "medium",
                 "priority": "medium",
+                "targetDate": "",
                 "notes": "",
                 "resources": [],
                 "children": []
@@ -1875,6 +2028,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": [
@@ -1886,6 +2040,7 @@
                 "status": "not-started",
                 "difficulty": "medium",
                 "priority": "medium",
+                "targetDate": "",
                 "notes": "",
                 "resources": [],
                 "children": []
@@ -1898,6 +2053,7 @@
                 "status": "not-started",
                 "difficulty": "medium",
                 "priority": "medium",
+                "targetDate": "",
                 "notes": "",
                 "resources": [],
                 "children": []
@@ -1910,6 +2066,7 @@
                 "status": "not-started",
                 "difficulty": "medium",
                 "priority": "medium",
+                "targetDate": "",
                 "notes": "",
                 "resources": [],
                 "children": []
@@ -1922,6 +2079,7 @@
                 "status": "not-started",
                 "difficulty": "medium",
                 "priority": "medium",
+                "targetDate": "",
                 "notes": "",
                 "resources": [],
                 "children": []
@@ -1938,6 +2096,7 @@
         "status": "not-started",
         "difficulty": "medium",
         "priority": "high",
+        "targetDate": "",
         "notes": "",
         "resources": [],
         "children": [
@@ -1949,6 +2108,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": [
@@ -1960,6 +2120,7 @@
                 "status": "not-started",
                 "difficulty": "medium",
                 "priority": "medium",
+                "targetDate": "",
                 "notes": "",
                 "resources": [],
                 "children": []
@@ -1972,6 +2133,7 @@
                 "status": "not-started",
                 "difficulty": "medium",
                 "priority": "medium",
+                "targetDate": "",
                 "notes": "",
                 "resources": [],
                 "children": []
@@ -1984,6 +2146,7 @@
                 "status": "not-started",
                 "difficulty": "medium",
                 "priority": "medium",
+                "targetDate": "",
                 "notes": "",
                 "resources": [],
                 "children": []
@@ -1996,6 +2159,7 @@
                 "status": "not-started",
                 "difficulty": "medium",
                 "priority": "medium",
+                "targetDate": "",
                 "notes": "",
                 "resources": [],
                 "children": []
@@ -2010,6 +2174,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -2022,6 +2187,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -2034,6 +2200,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -2046,6 +2213,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -2058,6 +2226,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -2072,6 +2241,7 @@
         "status": "not-started",
         "difficulty": "medium",
         "priority": "high",
+        "targetDate": "",
         "notes": "",
         "resources": [],
         "children": [
@@ -2083,6 +2253,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": [
@@ -2094,6 +2265,7 @@
                 "status": "not-started",
                 "difficulty": "medium",
                 "priority": "medium",
+                "targetDate": "",
                 "notes": "",
                 "resources": [],
                 "children": []
@@ -2106,6 +2278,7 @@
                 "status": "not-started",
                 "difficulty": "medium",
                 "priority": "medium",
+                "targetDate": "",
                 "notes": "",
                 "resources": [],
                 "children": []
@@ -2118,6 +2291,7 @@
                 "status": "not-started",
                 "difficulty": "medium",
                 "priority": "medium",
+                "targetDate": "",
                 "notes": "",
                 "resources": [],
                 "children": []
@@ -2130,6 +2304,7 @@
                 "status": "not-started",
                 "difficulty": "medium",
                 "priority": "medium",
+                "targetDate": "",
                 "notes": "",
                 "resources": [],
                 "children": []
@@ -2142,6 +2317,7 @@
                 "status": "not-started",
                 "difficulty": "medium",
                 "priority": "medium",
+                "targetDate": "",
                 "notes": "",
                 "resources": [],
                 "children": []
@@ -2156,6 +2332,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": [
@@ -2167,6 +2344,7 @@
                 "status": "not-started",
                 "difficulty": "medium",
                 "priority": "medium",
+                "targetDate": "",
                 "notes": "",
                 "resources": [],
                 "children": []
@@ -2179,6 +2357,7 @@
                 "status": "not-started",
                 "difficulty": "medium",
                 "priority": "medium",
+                "targetDate": "",
                 "notes": "",
                 "resources": [],
                 "children": []
@@ -2191,6 +2370,7 @@
                 "status": "not-started",
                 "difficulty": "medium",
                 "priority": "medium",
+                "targetDate": "",
                 "notes": "",
                 "resources": [],
                 "children": []
@@ -2203,6 +2383,7 @@
                 "status": "not-started",
                 "difficulty": "medium",
                 "priority": "medium",
+                "targetDate": "",
                 "notes": "",
                 "resources": [],
                 "children": []
@@ -2217,6 +2398,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": [
@@ -2228,6 +2410,7 @@
                 "status": "not-started",
                 "difficulty": "medium",
                 "priority": "medium",
+                "targetDate": "",
                 "notes": "",
                 "resources": [],
                 "children": []
@@ -2240,6 +2423,7 @@
                 "status": "not-started",
                 "difficulty": "medium",
                 "priority": "medium",
+                "targetDate": "",
                 "notes": "",
                 "resources": [],
                 "children": []
@@ -2252,6 +2436,7 @@
                 "status": "not-started",
                 "difficulty": "medium",
                 "priority": "medium",
+                "targetDate": "",
                 "notes": "",
                 "resources": [],
                 "children": []
@@ -2264,6 +2449,7 @@
                 "status": "not-started",
                 "difficulty": "medium",
                 "priority": "medium",
+                "targetDate": "",
                 "notes": "",
                 "resources": [],
                 "children": []
@@ -2276,6 +2462,7 @@
                 "status": "not-started",
                 "difficulty": "medium",
                 "priority": "medium",
+                "targetDate": "",
                 "notes": "",
                 "resources": [],
                 "children": []
@@ -2290,6 +2477,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": [
@@ -2301,6 +2489,7 @@
                 "status": "not-started",
                 "difficulty": "medium",
                 "priority": "medium",
+                "targetDate": "",
                 "notes": "",
                 "resources": [],
                 "children": []
@@ -2313,6 +2502,7 @@
                 "status": "not-started",
                 "difficulty": "medium",
                 "priority": "medium",
+                "targetDate": "",
                 "notes": "",
                 "resources": [],
                 "children": []
@@ -2325,6 +2515,7 @@
                 "status": "not-started",
                 "difficulty": "medium",
                 "priority": "medium",
+                "targetDate": "",
                 "notes": "",
                 "resources": [],
                 "children": []
@@ -2337,6 +2528,7 @@
                 "status": "not-started",
                 "difficulty": "medium",
                 "priority": "medium",
+                "targetDate": "",
                 "notes": "",
                 "resources": [],
                 "children": []
@@ -2349,6 +2541,7 @@
                 "status": "not-started",
                 "difficulty": "medium",
                 "priority": "medium",
+                "targetDate": "",
                 "notes": "",
                 "resources": [],
                 "children": []
@@ -2361,6 +2554,7 @@
                 "status": "not-started",
                 "difficulty": "medium",
                 "priority": "medium",
+                "targetDate": "",
                 "notes": "",
                 "resources": [],
                 "children": []
@@ -2375,6 +2569,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": [
@@ -2386,6 +2581,7 @@
                 "status": "not-started",
                 "difficulty": "medium",
                 "priority": "medium",
+                "targetDate": "",
                 "notes": "",
                 "resources": [],
                 "children": []
@@ -2398,6 +2594,7 @@
                 "status": "not-started",
                 "difficulty": "medium",
                 "priority": "medium",
+                "targetDate": "",
                 "notes": "",
                 "resources": [],
                 "children": []
@@ -2410,6 +2607,7 @@
                 "status": "not-started",
                 "difficulty": "medium",
                 "priority": "medium",
+                "targetDate": "",
                 "notes": "",
                 "resources": [],
                 "children": []
@@ -2422,6 +2620,7 @@
                 "status": "not-started",
                 "difficulty": "medium",
                 "priority": "medium",
+                "targetDate": "",
                 "notes": "",
                 "resources": [],
                 "children": []
@@ -2438,6 +2637,7 @@
         "status": "not-started",
         "difficulty": "medium",
         "priority": "high",
+        "targetDate": "",
         "notes": "",
         "resources": [],
         "children": [
@@ -2449,6 +2649,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -2461,6 +2662,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -2473,6 +2675,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -2485,6 +2688,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -2497,6 +2701,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -2511,6 +2716,7 @@
         "status": "not-started",
         "difficulty": "medium",
         "priority": "high",
+        "targetDate": "",
         "notes": "",
         "resources": [],
         "children": [
@@ -2522,6 +2728,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -2534,6 +2741,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -2546,6 +2754,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -2558,6 +2767,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -2572,6 +2782,7 @@
         "status": "not-started",
         "difficulty": "medium",
         "priority": "high",
+        "targetDate": "",
         "notes": "",
         "resources": [],
         "children": [
@@ -2583,6 +2794,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -2595,6 +2807,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -2607,6 +2820,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -2619,6 +2833,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -2631,6 +2846,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -2645,6 +2861,7 @@
         "status": "not-started",
         "difficulty": "medium",
         "priority": "high",
+        "targetDate": "",
         "notes": "",
         "resources": [],
         "children": [
@@ -2656,6 +2873,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -2668,6 +2886,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -2680,6 +2899,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -2692,6 +2912,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -2704,6 +2925,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -2718,6 +2940,7 @@
         "status": "not-started",
         "difficulty": "medium",
         "priority": "high",
+        "targetDate": "",
         "notes": "",
         "resources": [],
         "children": [
@@ -2729,6 +2952,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -2741,6 +2965,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -2753,6 +2978,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -2765,6 +2991,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -2777,6 +3004,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -2789,6 +3017,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -2805,6 +3034,7 @@
     "status": "not-started",
     "difficulty": "medium",
     "priority": "high",
+    "targetDate": "",
     "notes": "",
     "resources": [],
     "children": [
@@ -2816,6 +3046,7 @@
         "status": "not-started",
         "difficulty": "medium",
         "priority": "high",
+        "targetDate": "",
         "notes": "",
         "resources": [],
         "children": [
@@ -2827,6 +3058,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -2839,6 +3071,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -2851,6 +3084,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -2863,6 +3097,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -2875,6 +3110,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -2889,6 +3125,7 @@
         "status": "not-started",
         "difficulty": "medium",
         "priority": "high",
+        "targetDate": "",
         "notes": "",
         "resources": [],
         "children": [
@@ -2900,6 +3137,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -2912,6 +3150,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -2924,6 +3163,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -2936,6 +3176,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -2948,6 +3189,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -2960,6 +3202,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -2972,6 +3215,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -2986,6 +3230,7 @@
         "status": "not-started",
         "difficulty": "medium",
         "priority": "high",
+        "targetDate": "",
         "notes": "",
         "resources": [],
         "children": [
@@ -2997,6 +3242,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": [
@@ -3008,6 +3254,7 @@
                 "status": "not-started",
                 "difficulty": "medium",
                 "priority": "medium",
+                "targetDate": "",
                 "notes": "",
                 "resources": [],
                 "children": []
@@ -3020,6 +3267,7 @@
                 "status": "not-started",
                 "difficulty": "medium",
                 "priority": "medium",
+                "targetDate": "",
                 "notes": "",
                 "resources": [],
                 "children": []
@@ -3032,6 +3280,7 @@
                 "status": "not-started",
                 "difficulty": "medium",
                 "priority": "medium",
+                "targetDate": "",
                 "notes": "",
                 "resources": [],
                 "children": []
@@ -3044,6 +3293,7 @@
                 "status": "not-started",
                 "difficulty": "medium",
                 "priority": "medium",
+                "targetDate": "",
                 "notes": "",
                 "resources": [],
                 "children": []
@@ -3056,6 +3306,7 @@
                 "status": "not-started",
                 "difficulty": "medium",
                 "priority": "medium",
+                "targetDate": "",
                 "notes": "",
                 "resources": [],
                 "children": []
@@ -3068,6 +3319,7 @@
                 "status": "not-started",
                 "difficulty": "medium",
                 "priority": "medium",
+                "targetDate": "",
                 "notes": "",
                 "resources": [],
                 "children": []
@@ -3080,6 +3332,7 @@
                 "status": "not-started",
                 "difficulty": "medium",
                 "priority": "medium",
+                "targetDate": "",
                 "notes": "",
                 "resources": [],
                 "children": []
@@ -3092,6 +3345,7 @@
                 "status": "not-started",
                 "difficulty": "medium",
                 "priority": "medium",
+                "targetDate": "",
                 "notes": "",
                 "resources": [],
                 "children": []
@@ -3104,6 +3358,7 @@
                 "status": "not-started",
                 "difficulty": "medium",
                 "priority": "medium",
+                "targetDate": "",
                 "notes": "",
                 "resources": [],
                 "children": []
@@ -3118,6 +3373,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": [
@@ -3129,6 +3385,7 @@
                 "status": "not-started",
                 "difficulty": "medium",
                 "priority": "medium",
+                "targetDate": "",
                 "notes": "",
                 "resources": [],
                 "children": []
@@ -3143,6 +3400,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": [
@@ -3154,6 +3412,7 @@
                 "status": "not-started",
                 "difficulty": "medium",
                 "priority": "medium",
+                "targetDate": "",
                 "notes": "",
                 "resources": [],
                 "children": []
@@ -3172,6 +3431,7 @@
     "status": "not-started",
     "difficulty": "medium",
     "priority": "high",
+    "targetDate": "",
     "notes": "",
     "resources": [],
     "children": [
@@ -3183,6 +3443,7 @@
         "status": "not-started",
         "difficulty": "medium",
         "priority": "high",
+        "targetDate": "",
         "notes": "",
         "resources": [],
         "children": [
@@ -3194,6 +3455,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": [
@@ -3205,6 +3467,7 @@
                 "status": "not-started",
                 "difficulty": "medium",
                 "priority": "medium",
+                "targetDate": "",
                 "notes": "",
                 "resources": [],
                 "children": []
@@ -3217,6 +3480,7 @@
                 "status": "not-started",
                 "difficulty": "medium",
                 "priority": "medium",
+                "targetDate": "",
                 "notes": "",
                 "resources": [],
                 "children": []
@@ -3229,6 +3493,7 @@
                 "status": "not-started",
                 "difficulty": "medium",
                 "priority": "medium",
+                "targetDate": "",
                 "notes": "",
                 "resources": [],
                 "children": []
@@ -3243,6 +3508,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -3255,6 +3521,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -3269,6 +3536,7 @@
         "status": "not-started",
         "difficulty": "medium",
         "priority": "high",
+        "targetDate": "",
         "notes": "",
         "resources": [],
         "children": [
@@ -3280,6 +3548,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": [
@@ -3291,6 +3560,7 @@
                 "status": "not-started",
                 "difficulty": "medium",
                 "priority": "medium",
+                "targetDate": "",
                 "notes": "",
                 "resources": [],
                 "children": []
@@ -3303,6 +3573,7 @@
                 "status": "not-started",
                 "difficulty": "medium",
                 "priority": "medium",
+                "targetDate": "",
                 "notes": "",
                 "resources": [],
                 "children": []
@@ -3315,6 +3586,7 @@
                 "status": "not-started",
                 "difficulty": "medium",
                 "priority": "medium",
+                "targetDate": "",
                 "notes": "",
                 "resources": [],
                 "children": []
@@ -3327,6 +3599,7 @@
                 "status": "not-started",
                 "difficulty": "medium",
                 "priority": "medium",
+                "targetDate": "",
                 "notes": "",
                 "resources": [],
                 "children": []
@@ -3341,6 +3614,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -3355,6 +3629,7 @@
         "status": "not-started",
         "difficulty": "medium",
         "priority": "high",
+        "targetDate": "",
         "notes": "",
         "resources": [],
         "children": [
@@ -3366,6 +3641,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": [
@@ -3377,6 +3653,7 @@
                 "status": "not-started",
                 "difficulty": "medium",
                 "priority": "medium",
+                "targetDate": "",
                 "notes": "",
                 "resources": [],
                 "children": []
@@ -3389,6 +3666,7 @@
                 "status": "not-started",
                 "difficulty": "medium",
                 "priority": "medium",
+                "targetDate": "",
                 "notes": "",
                 "resources": [],
                 "children": []
@@ -3403,6 +3681,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": [
@@ -3414,6 +3693,7 @@
                 "status": "not-started",
                 "difficulty": "medium",
                 "priority": "medium",
+                "targetDate": "",
                 "notes": "",
                 "resources": [],
                 "children": []
@@ -3426,6 +3706,7 @@
                 "status": "not-started",
                 "difficulty": "medium",
                 "priority": "medium",
+                "targetDate": "",
                 "notes": "",
                 "resources": [],
                 "children": []
@@ -3440,6 +3721,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": [
@@ -3451,6 +3733,7 @@
                 "status": "not-started",
                 "difficulty": "medium",
                 "priority": "medium",
+                "targetDate": "",
                 "notes": "",
                 "resources": [],
                 "children": []
@@ -3467,6 +3750,7 @@
         "status": "not-started",
         "difficulty": "medium",
         "priority": "high",
+        "targetDate": "",
         "notes": "",
         "resources": [],
         "children": [
@@ -3478,6 +3762,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -3490,6 +3775,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -3502,6 +3788,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -3514,6 +3801,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -3526,6 +3814,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -3540,6 +3829,7 @@
         "status": "not-started",
         "difficulty": "medium",
         "priority": "high",
+        "targetDate": "",
         "notes": "",
         "resources": [],
         "children": [
@@ -3551,6 +3841,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -3563,6 +3854,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -3575,6 +3867,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -3587,6 +3880,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -3599,6 +3893,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -3615,6 +3910,7 @@
     "status": "not-started",
     "difficulty": "medium",
     "priority": "high",
+    "targetDate": "",
     "notes": "",
     "resources": [],
     "children": [
@@ -3626,6 +3922,7 @@
         "status": "not-started",
         "difficulty": "medium",
         "priority": "high",
+        "targetDate": "",
         "notes": "",
         "resources": [],
         "children": [
@@ -3637,6 +3934,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -3649,6 +3947,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -3661,6 +3960,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -3675,6 +3975,7 @@
         "status": "not-started",
         "difficulty": "medium",
         "priority": "high",
+        "targetDate": "",
         "notes": "",
         "resources": [],
         "children": [
@@ -3686,6 +3987,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -3698,6 +4000,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -3710,6 +4013,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -3724,6 +4028,7 @@
         "status": "not-started",
         "difficulty": "medium",
         "priority": "high",
+        "targetDate": "",
         "notes": "",
         "resources": [],
         "children": [
@@ -3735,6 +4040,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -3747,6 +4053,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -3759,6 +4066,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -3773,6 +4081,7 @@
         "status": "not-started",
         "difficulty": "medium",
         "priority": "high",
+        "targetDate": "",
         "notes": "",
         "resources": [],
         "children": [
@@ -3784,6 +4093,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -3796,6 +4106,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -3808,6 +4119,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -3820,6 +4132,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -3832,6 +4145,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -3846,6 +4160,7 @@
         "status": "not-started",
         "difficulty": "medium",
         "priority": "high",
+        "targetDate": "",
         "notes": "",
         "resources": [],
         "children": [
@@ -3857,6 +4172,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -3869,6 +4185,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -3881,6 +4198,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -3893,6 +4211,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -3909,6 +4228,7 @@
     "status": "not-started",
     "difficulty": "medium",
     "priority": "high",
+    "targetDate": "",
     "notes": "",
     "resources": [],
     "children": [
@@ -3920,6 +4240,7 @@
         "status": "not-started",
         "difficulty": "medium",
         "priority": "high",
+        "targetDate": "",
         "notes": "",
         "resources": [],
         "children": [
@@ -3931,6 +4252,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": [
@@ -3942,6 +4264,7 @@
                 "status": "not-started",
                 "difficulty": "medium",
                 "priority": "medium",
+                "targetDate": "",
                 "notes": "",
                 "resources": [],
                 "children": []
@@ -3954,6 +4277,7 @@
                 "status": "not-started",
                 "difficulty": "medium",
                 "priority": "medium",
+                "targetDate": "",
                 "notes": "",
                 "resources": [],
                 "children": []
@@ -3966,6 +4290,7 @@
                 "status": "not-started",
                 "difficulty": "medium",
                 "priority": "medium",
+                "targetDate": "",
                 "notes": "",
                 "resources": [],
                 "children": []
@@ -3980,6 +4305,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -3994,6 +4320,7 @@
         "status": "not-started",
         "difficulty": "medium",
         "priority": "high",
+        "targetDate": "",
         "notes": "",
         "resources": [],
         "children": [
@@ -4005,6 +4332,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -4017,6 +4345,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -4031,6 +4360,7 @@
         "status": "not-started",
         "difficulty": "medium",
         "priority": "high",
+        "targetDate": "",
         "notes": "",
         "resources": [],
         "children": [
@@ -4042,6 +4372,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -4054,6 +4385,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -4066,6 +4398,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -4078,6 +4411,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -4090,6 +4424,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -4102,6 +4437,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -4116,6 +4452,7 @@
         "status": "not-started",
         "difficulty": "medium",
         "priority": "high",
+        "targetDate": "",
         "notes": "",
         "resources": [],
         "children": [
@@ -4127,6 +4464,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -4139,6 +4477,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -4151,6 +4490,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -4163,6 +4503,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -4177,6 +4518,7 @@
         "status": "not-started",
         "difficulty": "medium",
         "priority": "high",
+        "targetDate": "",
         "notes": "",
         "resources": [],
         "children": [
@@ -4188,6 +4530,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": [
@@ -4199,6 +4542,7 @@
                 "status": "not-started",
                 "difficulty": "medium",
                 "priority": "medium",
+                "targetDate": "",
                 "notes": "",
                 "resources": [],
                 "children": []
@@ -4211,6 +4555,7 @@
                 "status": "not-started",
                 "difficulty": "medium",
                 "priority": "medium",
+                "targetDate": "",
                 "notes": "",
                 "resources": [],
                 "children": []
@@ -4223,6 +4568,7 @@
                 "status": "not-started",
                 "difficulty": "medium",
                 "priority": "medium",
+                "targetDate": "",
                 "notes": "",
                 "resources": [],
                 "children": []
@@ -4239,6 +4585,7 @@
         "status": "not-started",
         "difficulty": "medium",
         "priority": "high",
+        "targetDate": "",
         "notes": "",
         "resources": [],
         "children": [
@@ -4250,6 +4597,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -4262,6 +4610,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -4274,6 +4623,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -4286,6 +4636,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -4300,6 +4651,7 @@
         "status": "not-started",
         "difficulty": "medium",
         "priority": "high",
+        "targetDate": "",
         "notes": "",
         "resources": [],
         "children": [
@@ -4311,6 +4663,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -4323,6 +4676,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -4335,6 +4689,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -4351,6 +4706,7 @@
     "status": "not-started",
     "difficulty": "medium",
     "priority": "high",
+    "targetDate": "",
     "notes": "",
     "resources": [],
     "children": [
@@ -4362,6 +4718,7 @@
         "status": "not-started",
         "difficulty": "medium",
         "priority": "high",
+        "targetDate": "",
         "notes": "",
         "resources": [],
         "children": [
@@ -4373,6 +4730,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -4385,6 +4743,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -4397,6 +4756,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -4411,6 +4771,7 @@
         "status": "not-started",
         "difficulty": "medium",
         "priority": "high",
+        "targetDate": "",
         "notes": "",
         "resources": [],
         "children": [
@@ -4422,6 +4783,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -4434,6 +4796,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -4446,6 +4809,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -4458,6 +4822,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -4472,6 +4837,7 @@
         "status": "not-started",
         "difficulty": "medium",
         "priority": "high",
+        "targetDate": "",
         "notes": "",
         "resources": [],
         "children": [
@@ -4483,6 +4849,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -4495,6 +4862,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -4507,6 +4875,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -4519,6 +4888,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -4533,6 +4903,7 @@
         "status": "not-started",
         "difficulty": "medium",
         "priority": "high",
+        "targetDate": "",
         "notes": "",
         "resources": [],
         "children": [
@@ -4544,6 +4915,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -4556,6 +4928,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -4568,6 +4941,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -4582,6 +4956,7 @@
         "status": "not-started",
         "difficulty": "medium",
         "priority": "high",
+        "targetDate": "",
         "notes": "",
         "resources": [],
         "children": [
@@ -4593,6 +4968,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -4605,6 +4981,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -4617,6 +4994,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
@@ -4629,6 +5007,7 @@
             "status": "not-started",
             "difficulty": "medium",
             "priority": "high",
+            "targetDate": "",
             "notes": "",
             "resources": [],
             "children": []
