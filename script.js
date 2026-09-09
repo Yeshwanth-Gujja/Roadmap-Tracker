@@ -967,50 +967,82 @@
       'dark',
       localStorage.getItem(KEYS.theme) === 'dark'
     );
-
+  
     $('theme').textContent =
       document.body.classList.contains('dark')
         ? 'Light'
         : 'Dark';
-
+  
     let initial = null;
-
+    let loadedFromFile = false;
+  
+    // Always try to load the latest roadmap.json from GitHub Pages first.
+    // This prevents stale localStorage data from replacing the latest
+    // version that was successfully synced to GitHub.
     try {
+      const cacheBust = Date.now().toString();
+  
       const r = await fetch(
-        './roadmap.json',
-        { cache: 'no-store' }
+        './roadmap.json?_=' + cacheBust,
+        {
+          cache: 'no-store'
+        }
       );
-
+  
       if (r.ok) {
-        initial = await r.json()
+        initial = await r.json();
+  
+        if (Array.isArray(initial)) {
+          loadedFromFile = true;
+        }
       }
-
-    } catch {}
-
-    if (!Array.isArray(initial)) {
-      initial = copy(
-        window.ORIGINAL_ROADMAP
-      )
+  
+    } catch (e) {
+      console.warn(
+        'Could not load latest roadmap.json:',
+        e
+      );
     }
-
+  
+    // Original embedded roadmap is the next fallback.
+    if (!Array.isArray(initial)) {
+      try {
+        initial = copy(
+          window.ORIGINAL_ROADMAP
+        );
+      } catch (e) {
+        initial = [];
+      }
+    }
+  
+    // LocalStorage is used only when the latest roadmap.json
+    // could not be loaded.
     const local = (() => {
       try {
         return JSON.parse(
           localStorage.getItem(KEYS.data) || 'null'
-        )
+        );
       } catch {
-        return null
+        return null;
       }
     })();
-
-    roadmap = normalize(
-      local && Array.isArray(local)
-        ? local
-        : initial
-    );
-
+  
+    if (loadedFromFile) {
+      // GitHub Pages roadmap.json is authoritative.
+      roadmap = normalize(initial);
+    } else if (local && Array.isArray(local)) {
+      // Use local data only when roadmap.json was unavailable.
+      roadmap = normalize(local);
+    } else {
+      roadmap = normalize(initial);
+    }
+  
+    // Keep local cache synchronized with the version we loaded.
+    saveLocal();
     render();
-
+  
+    // If GitHub credentials are configured, pull the current
+    // repository version after the initial page load.
     if (config()) {
       githubStartup = pull(false);
     }
