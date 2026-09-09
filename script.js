@@ -525,18 +525,19 @@
 
   async function getRemote() {
     const c = config();
-
+  
     if (!c) return null;
-
+  
     try {
-      // Always request fresh roadmap.json metadata.
-      // The timestamp prevents stale browser/proxy cache data.
+      // Cache-busting query parameter is enough.
+      // Do NOT send Cache-Control or Pragma headers because
+      // GitHub API CORS preflight rejects those custom headers.
       const cacheBust = Date.now().toString();
-
+  
       return await gh(
         `/repos/${encodeURIComponent(c.owner)}/${encodeURIComponent(c.repo)}/contents/roadmap.json?ref=${encodeURIComponent(c.branch)}&_=${cacheBust}`
       );
-
+  
     } catch (e) {
       if (
         String(e.message).startsWith('{') ||
@@ -544,7 +545,7 @@
       ) {
         throw e;
       }
-
+  
       return null;
     }
   }
@@ -559,7 +560,7 @@
       .catch(e => {
         console.error('GitHub queue error:', e);
       });
-
+  
     return githubQueue;
   }
 
@@ -976,17 +977,14 @@
     let initial = null;
     let loadedFromFile = false;
   
-    // Always try to load the latest roadmap.json from GitHub Pages first.
-    // This prevents stale localStorage data from replacing the latest
-    // version that was successfully synced to GitHub.
+    // Always load the latest published roadmap first.
+    // GitHub Pages is the source of truth for the public roadmap.
     try {
       const cacheBust = Date.now().toString();
   
       const r = await fetch(
         './roadmap.json?_=' + cacheBust,
-        {
-          cache: 'no-store'
-        }
+        { cache: 'no-store' }
       );
   
       if (r.ok) {
@@ -996,7 +994,6 @@
           loadedFromFile = true;
         }
       }
-  
     } catch (e) {
       console.warn(
         'Could not load latest roadmap.json:',
@@ -1004,19 +1001,15 @@
       );
     }
   
-    // Original embedded roadmap is the next fallback.
+    // Fallback if roadmap.json cannot be loaded.
     if (!Array.isArray(initial)) {
       try {
-        initial = copy(
-          window.ORIGINAL_ROADMAP
-        );
+        initial = copy(window.ORIGINAL_ROADMAP);
       } catch (e) {
         initial = [];
       }
     }
   
-    // LocalStorage is used only when the latest roadmap.json
-    // could not be loaded.
     const local = (() => {
       try {
         return JSON.parse(
@@ -1027,22 +1020,23 @@
       }
     })();
   
+    // Published GitHub Pages data always wins when available.
+    // LocalStorage is used only when the published file cannot
+    // be loaded.
     if (loadedFromFile) {
-      // GitHub Pages roadmap.json is authoritative.
       roadmap = normalize(initial);
     } else if (local && Array.isArray(local)) {
-      // Use local data only when roadmap.json was unavailable.
       roadmap = normalize(local);
     } else {
       roadmap = normalize(initial);
     }
   
-    // Keep local cache synchronized with the version we loaded.
+    // Keep localStorage synchronized with the published roadmap.
     saveLocal();
+  
     render();
   
-    // If GitHub credentials are configured, pull the current
-    // repository version after the initial page load.
+    // If GitHub is connected, check the repository version too.
     if (config()) {
       githubStartup = pull(false);
     }
