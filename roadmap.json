@@ -967,7 +967,7 @@
             "name": "Automatic OpenAPI docs: /docs, /redoc (built-in)",
             "type": "Skill",
             "description": "",
-            "status": "not-started",
+            "status": "completed",
             "difficulty": "medium",
             "priority": "high",
             "targetDate": "",
@@ -976,7 +976,7 @@
             "children": []
           }
         ],
-        "_open": true
+        "_open": false
       },
       {
         "id": "node-75",
