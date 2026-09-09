@@ -114,8 +114,7 @@
             "resources": [],
             "children": []
           }
-        ],
-        "_open": true
+        ]
       },
       {
         "id": "node-10",
@@ -181,8 +180,7 @@
             "resources": [],
             "children": []
           }
-        ],
-        "_open": true
+        ]
       },
       {
         "id": "node-15",
@@ -280,7 +278,7 @@
             "name": "Basics: init, add, commit, status, log, diff",
             "type": "Skill",
             "description": "",
-            "status": "not-started",
+            "status": "completed",
             "difficulty": "medium",
             "priority": "high",
             "targetDate": "",
@@ -340,7 +338,8 @@
             "resources": [],
             "children": []
           }
-        ]
+        ],
+        "_open": true
       }
     ],
     "_open": true
