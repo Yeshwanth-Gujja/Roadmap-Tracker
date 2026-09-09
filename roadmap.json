@@ -67,7 +67,7 @@
             "name": "File I/O: Reading/writing text, CSV, JSON, Parquet",
             "type": "Skill",
             "description": "",
-            "status": "not-started",
+            "status": "completed",
             "difficulty": "medium",
             "priority": "high",
             "targetDate": "",
@@ -114,7 +114,8 @@
             "resources": [],
             "children": []
           }
-        ]
+        ],
+        "_open": true
       },
       {
         "id": "node-10",
@@ -259,8 +260,7 @@
             "resources": [],
             "children": []
           }
-        ],
-        "_open": true
+        ]
       },
       {
         "id": "node-21",
