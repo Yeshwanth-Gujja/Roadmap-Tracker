@@ -54,7 +54,7 @@
             "name": "OOP: Classes, inheritance, magic methods (__init__, __call__)",
             "type": "Skill",
             "description": "",
-            "status": "not-started",
+            "status": "completed",
             "difficulty": "medium",
             "priority": "high",
             "targetDate": "",
