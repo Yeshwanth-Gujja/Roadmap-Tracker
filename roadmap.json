@@ -134,7 +134,7 @@
             "name": "JavaScript ES6+: let/const, arrow functions, destructuring, spread/rest",
             "type": "Skill",
             "description": "",
-            "status": "not-started",
+            "status": "completed",
             "difficulty": "medium",
             "priority": "high",
             "targetDate": "",
@@ -181,7 +181,8 @@
             "resources": [],
             "children": []
           }
-        ]
+        ],
+        "_open": true
       },
       {
         "id": "node-15",
