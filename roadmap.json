@@ -41,7 +41,7 @@
             "name": "Data Structures: Lists, dicts, sets, tuples, comprehensions",
             "type": "Skill",
             "description": "",
-            "status": "not-started",
+            "status": "completed",
             "difficulty": "medium",
             "priority": "high",
             "targetDate": "",
