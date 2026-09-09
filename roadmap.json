@@ -338,11 +338,9 @@
             "resources": [],
             "children": []
           }
-        ],
-        "_open": false
+        ]
       }
-    ],
-    "_open": true
+    ]
   },
   {
     "id": "node-27",
@@ -904,7 +902,7 @@
             "name": "Routes: @app.get, @app.post, @app.put, @app.delete",
             "type": "Skill",
             "description": "",
-            "status": "not-started",
+            "status": "completed",
             "difficulty": "medium",
             "priority": "high",
             "targetDate": "",
@@ -917,7 +915,7 @@
             "name": "Pydantic v2: Models, validation, serialisation",
             "type": "Skill",
             "description": "",
-            "status": "not-started",
+            "status": "completed",
             "difficulty": "medium",
             "priority": "high",
             "targetDate": "",
@@ -977,7 +975,8 @@
             "resources": [],
             "children": []
           }
-        ]
+        ],
+        "_open": true
       },
       {
         "id": "node-75",
@@ -1468,7 +1467,8 @@
           }
         ]
       }
-    ]
+    ],
+    "_open": true
   },
   {
     "id": "node-112",
