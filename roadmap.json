@@ -10,6 +10,21 @@
     "targetDate": "",
     "notes": "",
     "resources": [],
-    "children": []
+    "children": [
+      {
+        "id": "custom-muef1c15-d7t262",
+        "name": "CLI & Linux Basics",
+        "description": "It is used to run the command lines arguments",
+        "status": "not-started",
+        "difficulty": "medium",
+        "priority": "medium",
+        "targetDate": "",
+        "notes": "",
+        "resources": [],
+        "type": "Section",
+        "children": []
+      }
+    ],
+    "_open": true
   }
 ]
