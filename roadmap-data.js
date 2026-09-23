@@ -1,0 +1,4640 @@
+window.ORIGINAL_ROADMAP = [
+    {
+      "id": "node-1",
+      "name": "CORE PROGRAMMING (FOUNDATION – START HERE)",
+      "type": "Section",
+      "description": "",
+      "status": "not-started",
+      "difficulty": "medium",
+      "priority": "high",
+      "notes": "",
+      "resources": [],
+      "children": [
+        {
+          "id": "node-2",
+          "name": "Python (Your Primary Language – MASTER THIS)",
+          "type": "Topic",
+          "description": "",
+          "status": "not-started",
+          "difficulty": "medium",
+          "priority": "high",
+          "notes": "",
+          "resources": [],
+          "children": [
+            {
+              "id": "node-3",
+              "name": "Syntax & Basics: Variables, loops, conditionals, functions",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            },
+            {
+              "id": "node-4",
+              "name": "Data Structures: Lists, dicts, sets, tuples, comprehensions",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            },
+            {
+              "id": "node-5",
+              "name": "OOP: Classes, inheritance, magic methods (__init__, __call__)",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            },
+            {
+              "id": "node-6",
+              "name": "File I/O: Reading/writing text, CSV, JSON, Parquet",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            },
+            {
+              "id": "node-7",
+              "name": "Virtual Environments: venv, conda, poetry",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            },
+            {
+              "id": "node-8",
+              "name": "Package Management: pip, requirements.txt, pyproject.toml",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            },
+            {
+              "id": "node-9",
+              "name": "Async/Await: asyncio, aiohttp (for concurrent API calls)",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "node-10",
+          "name": "JavaScript & TypeScript (Frontend + Backend)",
+          "type": "Topic",
+          "description": "",
+          "status": "not-started",
+          "difficulty": "medium",
+          "priority": "high",
+          "notes": "",
+          "resources": [],
+          "children": [
+            {
+              "id": "node-11",
+              "name": "JavaScript ES6+: let/const, arrow functions, destructuring, spread/rest",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            },
+            {
+              "id": "node-12",
+              "name": "Async Patterns: Promises, async/await, fetch API",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            },
+            {
+              "id": "node-13",
+              "name": "TypeScript: Types, interfaces, generics, utility types",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            },
+            {
+              "id": "node-14",
+              "name": "Node.js: npm, basic scripts, environment variables",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "node-15",
+          "name": "SQL (Querying Relational Data)",
+          "type": "Topic",
+          "description": "",
+          "status": "not-started",
+          "difficulty": "medium",
+          "priority": "high",
+          "notes": "",
+          "resources": [],
+          "children": [
+            {
+              "id": "node-16",
+              "name": "CRUD: SELECT, INSERT, UPDATE, DELETE",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            },
+            {
+              "id": "node-17",
+              "name": "Joins: INNER, LEFT, RIGHT, FULL, SELF",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            },
+            {
+              "id": "node-18",
+              "name": "Aggregations: GROUP BY, HAVING, COUNT, SUM, AVG, MIN, MAX",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            },
+            {
+              "id": "node-19",
+              "name": "Subqueries & CTEs (WITH clauses)",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            },
+            {
+              "id": "node-20",
+              "name": "Window Functions: ROW_NUMBER, RANK, LAG, LEAD",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "node-21",
+          "name": "Git (Version Control – Non-negotiable)",
+          "type": "Topic",
+          "description": "",
+          "status": "not-started",
+          "difficulty": "medium",
+          "priority": "high",
+          "notes": "",
+          "resources": [],
+          "children": [
+            {
+              "id": "node-22",
+              "name": "Basics: init, add, commit, status, log, diff",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            },
+            {
+              "id": "node-23",
+              "name": "Branching: create, switch, merge, rebase (interactive)",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            },
+            {
+              "id": "node-24",
+              "name": "Remotes: push, pull, fetch, upstream tracking",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            },
+            {
+              "id": "node-25",
+              "name": "Pull Requests: creating, reviewing, approving, squashing",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            },
+            {
+              "id": "node-26",
+              "name": "GitHub/GitLab: issues, projects, actions integration",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "node-27",
+      "name": "FRONTEND DEVELOPMENT (USER-FACING AI)",
+      "type": "Section",
+      "description": "",
+      "status": "not-started",
+      "difficulty": "medium",
+      "priority": "high",
+      "notes": "",
+      "resources": [],
+      "children": [
+        {
+          "id": "node-28",
+          "name": "HTML5",
+          "type": "Topic",
+          "description": "",
+          "status": "not-started",
+          "difficulty": "medium",
+          "priority": "high",
+          "notes": "",
+          "resources": [],
+          "children": [
+            {
+              "id": "node-29",
+              "name": "Semantic Elements: header, nav, main, section, article, aside",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            },
+            {
+              "id": "node-30",
+              "name": "Forms: input, select, textarea, validation attributes",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            },
+            {
+              "id": "node-31",
+              "name": "Accessibility: ARIA roles, alt text, keyboard navigation",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "node-32",
+          "name": "CSS3",
+          "type": "Topic",
+          "description": "",
+          "status": "not-started",
+          "difficulty": "medium",
+          "priority": "high",
+          "notes": "",
+          "resources": [],
+          "children": [
+            {
+              "id": "node-33",
+              "name": "Box Model & Positioning: margin, padding, flex/grid",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            },
+            {
+              "id": "node-34",
+              "name": "Flexbox & CSS Grid (master both)",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            },
+            {
+              "id": "node-35",
+              "name": "Responsive Design: media queries, mobile-first, clamp()",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            },
+            {
+              "id": "node-36",
+              "name": "Tailwind CSS (utility-first, industry standard for AI dashboards)",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "node-37",
+          "name": "React (Your Primary Frontend Framework)",
+          "type": "Topic",
+          "description": "",
+          "status": "not-started",
+          "difficulty": "medium",
+          "priority": "high",
+          "notes": "",
+          "resources": [],
+          "children": [
+            {
+              "id": "node-38",
+              "name": "Components: Functional components, props, children, fragments",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            },
+            {
+              "id": "node-39",
+              "name": "Hooks: useState, useEffect, useContext, useRef, useMemo, useCallback",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            },
+            {
+              "id": "node-40",
+              "name": "Custom Hooks: reusable logic extraction",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            },
+            {
+              "id": "node-41",
+              "name": "State Management: Zustand (recommended) or Redux Toolkit",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            },
+            {
+              "id": "node-42",
+              "name": "Routing: React Router DOM (v6) – nested routes, loaders",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            },
+            {
+              "id": "node-43",
+              "name": "Server-State Management (CRITICAL FOR AI)",
+              "type": "Topic",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": [
+                {
+                  "id": "node-44",
+                  "name": "TanStack Query (React Query)",
+                  "type": "Topic",
+                  "description": "",
+                  "status": "not-started",
+                  "difficulty": "medium",
+                  "priority": "medium",
+                  "notes": "",
+                  "resources": [],
+                  "children": [
+                    {
+                      "id": "node-45",
+                      "name": "useQuery (fetching, caching, stale-while-revalidate)",
+                      "type": "Skill",
+                      "description": "",
+                      "status": "not-started",
+                      "difficulty": "medium",
+                      "priority": "medium",
+                      "notes": "",
+                      "resources": [],
+                      "children": []
+                    },
+                    {
+                      "id": "node-46",
+                      "name": "useMutation (POST/PUT with optimistic updates)",
+                      "type": "Skill",
+                      "description": "",
+                      "status": "not-started",
+                      "difficulty": "medium",
+                      "priority": "medium",
+                      "notes": "",
+                      "resources": [],
+                      "children": []
+                    },
+                    {
+                      "id": "node-47",
+                      "name": "Infinite Queries (for search results / chat history)",
+                      "type": "Skill",
+                      "description": "",
+                      "status": "not-started",
+                      "difficulty": "medium",
+                      "priority": "medium",
+                      "notes": "",
+                      "resources": [],
+                      "children": []
+                    },
+                    {
+                      "id": "node-48",
+                      "name": "Query invalidation & refetching",
+                      "type": "Skill",
+                      "description": "",
+                      "status": "not-started",
+                      "difficulty": "medium",
+                      "priority": "medium",
+                      "notes": "",
+                      "resources": [],
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "node-49",
+              "name": "Schema Validation (Full-stack type safety)",
+              "type": "Topic",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": [
+                {
+                  "id": "node-50",
+                  "name": "Zod – share validation between frontend & backend",
+                  "type": "Topic",
+                  "description": "",
+                  "status": "not-started",
+                  "difficulty": "medium",
+                  "priority": "medium",
+                  "notes": "",
+                  "resources": [],
+                  "children": [
+                    {
+                      "id": "node-51",
+                      "name": "Runtime validation of LLM JSON outputs",
+                      "type": "Skill",
+                      "description": "",
+                      "status": "not-started",
+                      "difficulty": "medium",
+                      "priority": "medium",
+                      "notes": "",
+                      "resources": [],
+                      "children": []
+                    },
+                    {
+                      "id": "node-52",
+                      "name": "Type inference (z.infer<typeof schema>)",
+                      "type": "Skill",
+                      "description": "",
+                      "status": "not-started",
+                      "difficulty": "medium",
+                      "priority": "medium",
+                      "notes": "",
+                      "resources": [],
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "node-53",
+              "name": "Streaming & Real-Time UI",
+              "type": "Topic",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": [
+                {
+                  "id": "node-54",
+                  "name": "Server-Sent Events (EventSource) – token-by-token streaming",
+                  "type": "Skill",
+                  "description": "",
+                  "status": "not-started",
+                  "difficulty": "medium",
+                  "priority": "medium",
+                  "notes": "",
+                  "resources": [],
+                  "children": []
+                },
+                {
+                  "id": "node-55",
+                  "name": "WebSockets (Socket.io or native) – for bidirectional chat",
+                  "type": "Skill",
+                  "description": "",
+                  "status": "not-started",
+                  "difficulty": "medium",
+                  "priority": "medium",
+                  "notes": "",
+                  "resources": [],
+                  "children": []
+                },
+                {
+                  "id": "node-56",
+                  "name": "Handling text/event-stream responses in React",
+                  "type": "Skill",
+                  "description": "",
+                  "status": "not-started",
+                  "difficulty": "medium",
+                  "priority": "medium",
+                  "notes": "",
+                  "resources": [],
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "node-57",
+              "name": "Next.js (Meta-framework – recommended)",
+              "type": "Topic",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": [
+                {
+                  "id": "node-58",
+                  "name": "App Router vs Pages Router",
+                  "type": "Skill",
+                  "description": "",
+                  "status": "not-started",
+                  "difficulty": "medium",
+                  "priority": "medium",
+                  "notes": "",
+                  "resources": [],
+                  "children": []
+                },
+                {
+                  "id": "node-59",
+                  "name": "Server Components vs Client Components",
+                  "type": "Skill",
+                  "description": "",
+                  "status": "not-started",
+                  "difficulty": "medium",
+                  "priority": "medium",
+                  "notes": "",
+                  "resources": [],
+                  "children": []
+                },
+                {
+                  "id": "node-60",
+                  "name": "API Routes (build backend endpoints inside Next.js)",
+                  "type": "Skill",
+                  "description": "",
+                  "status": "not-started",
+                  "difficulty": "medium",
+                  "priority": "medium",
+                  "notes": "",
+                  "resources": [],
+                  "children": []
+                },
+                {
+                  "id": "node-61",
+                  "name": "Middleware (auth, logging, redirects)",
+                  "type": "Skill",
+                  "description": "",
+                  "status": "not-started",
+                  "difficulty": "medium",
+                  "priority": "medium",
+                  "notes": "",
+                  "resources": [],
+                  "children": []
+                },
+                {
+                  "id": "node-62",
+                  "name": "Deployment: Vercel (easiest) or self-hosted",
+                  "type": "Skill",
+                  "description": "",
+                  "status": "not-started",
+                  "difficulty": "medium",
+                  "priority": "medium",
+                  "notes": "",
+                  "resources": [],
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "node-63",
+              "name": "Performance & UX",
+              "type": "Topic",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": [
+                {
+                  "id": "node-64",
+                  "name": "Code Splitting: dynamic import, lazy loading",
+                  "type": "Skill",
+                  "description": "",
+                  "status": "not-started",
+                  "difficulty": "medium",
+                  "priority": "medium",
+                  "notes": "",
+                  "resources": [],
+                  "children": []
+                },
+                {
+                  "id": "node-65",
+                  "name": "Core Web Vitals: LCP, FID, CLS optimisation",
+                  "type": "Skill",
+                  "description": "",
+                  "status": "not-started",
+                  "difficulty": "medium",
+                  "priority": "medium",
+                  "notes": "",
+                  "resources": [],
+                  "children": []
+                },
+                {
+                  "id": "node-66",
+                  "name": "Error Boundaries: graceful fallback for LLM failures",
+                  "type": "Skill",
+                  "description": "",
+                  "status": "not-started",
+                  "difficulty": "medium",
+                  "priority": "medium",
+                  "notes": "",
+                  "resources": [],
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "node-67",
+      "name": "BACKEND DEVELOPMENT (THE AI ENGINE)",
+      "type": "Section",
+      "description": "",
+      "status": "not-started",
+      "difficulty": "medium",
+      "priority": "high",
+      "notes": "",
+      "resources": [],
+      "children": [
+        {
+          "id": "node-68",
+          "name": "FastAPI (Your Primary Python Backend – MASTER THIS)",
+          "type": "Topic",
+          "description": "",
+          "status": "not-started",
+          "difficulty": "medium",
+          "priority": "high",
+          "notes": "",
+          "resources": [],
+          "children": [
+            {
+              "id": "node-69",
+              "name": "Routes: @app.get, @app.post, @app.put, @app.delete",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            },
+            {
+              "id": "node-70",
+              "name": "Pydantic v2: Models, validation, serialisation",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            },
+            {
+              "id": "node-71",
+              "name": "Dependency Injection: reuse logic (auth, DB sessions)",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            },
+            {
+              "id": "node-72",
+              "name": "Async/Await: native support for concurrent I/O",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            },
+            {
+              "id": "node-73",
+              "name": "Background Tasks: BackgroundTasks for lightweight jobs",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            },
+            {
+              "id": "node-74",
+              "name": "Automatic OpenAPI docs: /docs, /redoc (built-in)",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "node-75",
+          "name": "REST API Design & Best Practices",
+          "type": "Topic",
+          "description": "",
+          "status": "not-started",
+          "difficulty": "medium",
+          "priority": "high",
+          "notes": "",
+          "resources": [],
+          "children": [
+            {
+              "id": "node-76",
+              "name": "HTTP Methods: GET (read), POST (create), PUT (replace), PATCH (partial), DELETE",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            },
+            {
+              "id": "node-77",
+              "name": "Status Codes: 2xx (success), 4xx (client error), 5xx (server)",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            },
+            {
+              "id": "node-78",
+              "name": "Resource Naming: plural, hierarchical (/users/{id}/posts)",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            },
+            {
+              "id": "node-79",
+              "name": "Pagination: offset/limit, cursor-based (for search)",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            },
+            {
+              "id": "node-80",
+              "name": "Filtering & Sorting: query parameters",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            },
+            {
+              "id": "node-81",
+              "name": "Idempotency: safe retries with idempotency keys",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "node-82",
+          "name": "GraphQL (Modern API Layer – for complex AI dashboards)",
+          "type": "Topic",
+          "description": "",
+          "status": "not-started",
+          "difficulty": "medium",
+          "priority": "high",
+          "notes": "",
+          "resources": [],
+          "children": [
+            {
+              "id": "node-83",
+              "name": "Schema Definition: types, queries, mutations, subscriptions",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            },
+            {
+              "id": "node-84",
+              "name": "Resolvers: fetch data from DB, vector stores, or LLMs",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            },
+            {
+              "id": "node-85",
+              "name": "Apollo Server (Node.js) or Strawberry/Graphene (Python)",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            },
+            {
+              "id": "node-86",
+              "name": "Federation: compose multiple AI microservices",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "node-87",
+          "name": "Webhooks (Async AI processing)",
+          "type": "Topic",
+          "description": "",
+          "status": "not-started",
+          "difficulty": "medium",
+          "priority": "high",
+          "notes": "",
+          "resources": [],
+          "children": [
+            {
+              "id": "node-88",
+              "name": "Event delivery: POST to user-provided URLs",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            },
+            {
+              "id": "node-89",
+              "name": "Signature Verification: HMAC-SHA256 for security",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            },
+            {
+              "id": "node-90",
+              "name": "Retry Policies: exponential backoff, dead-letter queues",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            },
+            {
+              "id": "node-91",
+              "name": "Idempotency: prevent duplicate processing",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "node-92",
+          "name": "Real-Time Communication",
+          "type": "Topic",
+          "description": "",
+          "status": "not-started",
+          "difficulty": "medium",
+          "priority": "high",
+          "notes": "",
+          "resources": [],
+          "children": [
+            {
+              "id": "node-93",
+              "name": "Server-Sent Events (SSE): one-way streaming (LLM token stream)",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            },
+            {
+              "id": "node-94",
+              "name": "WebSockets: bidirectional (live chat, collaborative agents)",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            },
+            {
+              "id": "node-95",
+              "name": "Socket.io (fallback to polling for compatibility)",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "node-96",
+          "name": "Authentication & Authorisation",
+          "type": "Topic",
+          "description": "",
+          "status": "not-started",
+          "difficulty": "medium",
+          "priority": "high",
+          "notes": "",
+          "resources": [],
+          "children": [
+            {
+              "id": "node-97",
+              "name": "JWT (JSON Web Tokens): access + refresh tokens",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            },
+            {
+              "id": "node-98",
+              "name": "OAuth2 / OIDC: Google, GitHub, social login",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            },
+            {
+              "id": "node-99",
+              "name": "Session Management: Redis store, HttpOnly cookies",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            },
+            {
+              "id": "node-100",
+              "name": "RBAC (Role-Based Access Control): admin, user, read-only",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "node-101",
+          "name": "Message Queues & Background Jobs (For heavy AI workloads)",
+          "type": "Topic",
+          "description": "",
+          "status": "not-started",
+          "difficulty": "medium",
+          "priority": "high",
+          "notes": "",
+          "resources": [],
+          "children": [
+            {
+              "id": "node-102",
+              "name": "Celery + Redis/RabbitMQ (Python)",
+              "type": "Topic",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": [
+                {
+                  "id": "node-103",
+                  "name": "Async tasks (embedding 1000s of documents)",
+                  "type": "Skill",
+                  "description": "",
+                  "status": "not-started",
+                  "difficulty": "medium",
+                  "priority": "medium",
+                  "notes": "",
+                  "resources": [],
+                  "children": []
+                },
+                {
+                  "id": "node-104",
+                  "name": "Scheduled jobs (Celery Beat) – nightly re-indexing",
+                  "type": "Skill",
+                  "description": "",
+                  "status": "not-started",
+                  "difficulty": "medium",
+                  "priority": "medium",
+                  "notes": "",
+                  "resources": [],
+                  "children": []
+                },
+                {
+                  "id": "node-105",
+                  "name": "Result backend (track task status)",
+                  "type": "Skill",
+                  "description": "",
+                  "status": "not-started",
+                  "difficulty": "medium",
+                  "priority": "medium",
+                  "notes": "",
+                  "resources": [],
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "node-106",
+              "name": "BullMQ (Node.js alternative)",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "node-107",
+          "name": "API Security",
+          "type": "Topic",
+          "description": "",
+          "status": "not-started",
+          "difficulty": "medium",
+          "priority": "high",
+          "notes": "",
+          "resources": [],
+          "children": [
+            {
+              "id": "node-108",
+              "name": "Rate Limiting: token bucket, sliding window (per user/IP)",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            },
+            {
+              "id": "node-109",
+              "name": "CORS: proper origin configuration",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            },
+            {
+              "id": "node-110",
+              "name": "Input Validation: Pydantic/Zod (never trust LLM output)",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            },
+            {
+              "id": "node-111",
+              "name": "Helmet.js / CSP headers (frontend)",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "node-112",
+      "name": "DATABASES (PERSISTENCE & SEARCH)",
+      "type": "Section",
+      "description": "",
+      "status": "not-started",
+      "difficulty": "medium",
+      "priority": "high",
+      "notes": "",
+      "resources": [],
+      "children": [
+        {
+          "id": "node-113",
+          "name": "PostgreSQL (Primary SQL – with vector extension)",
+          "type": "Topic",
+          "description": "",
+          "status": "not-started",
+          "difficulty": "medium",
+          "priority": "high",
+          "notes": "",
+          "resources": [],
+          "children": [
+            {
+              "id": "node-114",
+              "name": "Schema Design: tables, relations, foreign keys, indexes",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            },
+            {
+              "id": "node-115",
+              "name": "SQLAlchemy ORM (Python) – models, relationships, sessions",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            },
+            {
+              "id": "node-116",
+              "name": "Alembic: migrations (revision, upgrade, downgrade)",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            },
+            {
+              "id": "node-117",
+              "name": "Advanced Indexing: B-tree, GIN (for full-text), BRIN",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            },
+            {
+              "id": "node-118",
+              "name": "pgvector extension (CRITICAL)",
+              "type": "Topic",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": [
+                {
+                  "id": "node-119",
+                  "name": "vector column type",
+                  "type": "Skill",
+                  "description": "",
+                  "status": "not-started",
+                  "difficulty": "medium",
+                  "priority": "medium",
+                  "notes": "",
+                  "resources": [],
+                  "children": []
+                },
+                {
+                  "id": "node-120",
+                  "name": "cosine / L2 / inner product distance",
+                  "type": "Skill",
+                  "description": "",
+                  "status": "not-started",
+                  "difficulty": "medium",
+                  "priority": "medium",
+                  "notes": "",
+                  "resources": [],
+                  "children": []
+                },
+                {
+                  "id": "node-121",
+                  "name": "IVFFlat / HNSW indexes for fast similarity search",
+                  "type": "Skill",
+                  "description": "",
+                  "status": "not-started",
+                  "difficulty": "medium",
+                  "priority": "medium",
+                  "notes": "",
+                  "resources": [],
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "node-122",
+              "name": "Full-Text Search: tsvector, tsquery, ranking",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "node-123",
+          "name": "MongoDB (Document store – for flexible AI metadata)",
+          "type": "Topic",
+          "description": "",
+          "status": "not-started",
+          "difficulty": "medium",
+          "priority": "high",
+          "notes": "",
+          "resources": [],
+          "children": [
+            {
+              "id": "node-124",
+              "name": "Collections & Documents (JSON-like)",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            },
+            {
+              "id": "node-125",
+              "name": "Mongoose ODM (Node.js) / PyMongo (Python)",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            },
+            {
+              "id": "node-126",
+              "name": "Aggregation Pipeline (complex analytics)",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            },
+            {
+              "id": "node-127",
+              "name": "Atlas Search (full-text + fuzzy)",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "node-128",
+          "name": "Redis (Cache, Queue, & Session Store)",
+          "type": "Topic",
+          "description": "",
+          "status": "not-started",
+          "difficulty": "medium",
+          "priority": "high",
+          "notes": "",
+          "resources": [],
+          "children": [
+            {
+              "id": "node-129",
+              "name": "Caching: Cache-Aside pattern (frequent LLM responses)",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            },
+            {
+              "id": "node-130",
+              "name": "Session Storage: user sessions, rate-limit counters",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            },
+            {
+              "id": "node-131",
+              "name": "Pub/Sub: real-time events across services",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            },
+            {
+              "id": "node-132",
+              "name": "Rate Limiting: sliding window counters with TTL",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "node-133",
+      "name": "AI & MACHINE LEARNING (YOUR CORE VALUE)",
+      "type": "Section",
+      "description": "",
+      "status": "not-started",
+      "difficulty": "medium",
+      "priority": "high",
+      "notes": "",
+      "resources": [],
+      "children": [
+        {
+          "id": "node-134",
+          "name": "Python Data Stack (The \"Data Wrangling\" layer)",
+          "type": "Topic",
+          "description": "",
+          "status": "not-started",
+          "difficulty": "medium",
+          "priority": "high",
+          "notes": "",
+          "resources": [],
+          "children": [
+            {
+              "id": "node-135",
+              "name": "NumPy: arrays, broadcasting, linear algebra ops",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            },
+            {
+              "id": "node-136",
+              "name": "Pandas: DataFrames, grouping, merging, cleaning",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            },
+            {
+              "id": "node-137",
+              "name": "Matplotlib / Seaborn: visualisation (EDA, evaluation charts)",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            },
+            {
+              "id": "node-138",
+              "name": "Jupyter Notebooks / VS Code notebooks (rapid exploration)",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "node-139",
+          "name": "Machine Learning Fundamentals (Conceptual)",
+          "type": "Topic",
+          "description": "",
+          "status": "not-started",
+          "difficulty": "medium",
+          "priority": "high",
+          "notes": "",
+          "resources": [],
+          "children": [
+            {
+              "id": "node-140",
+              "name": "Supervised vs Unsupervised vs Reinforcement",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            },
+            {
+              "id": "node-141",
+              "name": "Scikit-Learn: pipelines, transformers, estimators",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            },
+            {
+              "id": "node-142",
+              "name": "Evaluation Metrics: accuracy, precision, recall, F1, ROC-AUC",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            },
+            {
+              "id": "node-143",
+              "name": "Feature Engineering: encoding, scaling, binning",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            },
+            {
+              "id": "node-144",
+              "name": "Cross-Validation: K-fold, stratified",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            },
+            {
+              "id": "node-145",
+              "name": "Hyperparameter Tuning: GridSearch, RandomSearch, Optuna",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "node-146",
+          "name": "Deep Learning (For custom models & embeddings)",
+          "type": "Topic",
+          "description": "",
+          "status": "not-started",
+          "difficulty": "medium",
+          "priority": "high",
+          "notes": "",
+          "resources": [],
+          "children": [
+            {
+              "id": "node-147",
+              "name": "PyTorch (Primary – industry standard for research & production)",
+              "type": "Topic",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": [
+                {
+                  "id": "node-148",
+                  "name": "Tensors, Autograd (automatic differentiation)",
+                  "type": "Skill",
+                  "description": "",
+                  "status": "not-started",
+                  "difficulty": "medium",
+                  "priority": "medium",
+                  "notes": "",
+                  "resources": [],
+                  "children": []
+                },
+                {
+                  "id": "node-149",
+                  "name": "nn.Module: building custom layers & models",
+                  "type": "Skill",
+                  "description": "",
+                  "status": "not-started",
+                  "difficulty": "medium",
+                  "priority": "medium",
+                  "notes": "",
+                  "resources": [],
+                  "children": []
+                },
+                {
+                  "id": "node-150",
+                  "name": "DataLoader & Dataset: batching, shuffling, transforms",
+                  "type": "Skill",
+                  "description": "",
+                  "status": "not-started",
+                  "difficulty": "medium",
+                  "priority": "medium",
+                  "notes": "",
+                  "resources": [],
+                  "children": []
+                },
+                {
+                  "id": "node-151",
+                  "name": "Training Loop: loss functions, optimizers (Adam, SGD)",
+                  "type": "Skill",
+                  "description": "",
+                  "status": "not-started",
+                  "difficulty": "medium",
+                  "priority": "medium",
+                  "notes": "",
+                  "resources": [],
+                  "children": []
+                },
+                {
+                  "id": "node-152",
+                  "name": "GPU Acceleration: .to('cuda'), mixed precision (AMP)",
+                  "type": "Skill",
+                  "description": "",
+                  "status": "not-started",
+                  "difficulty": "medium",
+                  "priority": "medium",
+                  "notes": "",
+                  "resources": [],
+                  "children": []
+                },
+                {
+                  "id": "node-153",
+                  "name": "Model Export: TorchScript, ONNX",
+                  "type": "Skill",
+                  "description": "",
+                  "status": "not-started",
+                  "difficulty": "medium",
+                  "priority": "medium",
+                  "notes": "",
+                  "resources": [],
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "node-154",
+              "name": "Hugging Face Transformers (THE LLM LIBRARY)",
+              "type": "Topic",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": [
+                {
+                  "id": "node-155",
+                  "name": "AutoModel, AutoTokenizer, AutoConfig",
+                  "type": "Skill",
+                  "description": "",
+                  "status": "not-started",
+                  "difficulty": "medium",
+                  "priority": "medium",
+                  "notes": "",
+                  "resources": [],
+                  "children": []
+                },
+                {
+                  "id": "node-156",
+                  "name": "Pipelines: text generation, embeddings, question-answering",
+                  "type": "Skill",
+                  "description": "",
+                  "status": "not-started",
+                  "difficulty": "medium",
+                  "priority": "medium",
+                  "notes": "",
+                  "resources": [],
+                  "children": []
+                },
+                {
+                  "id": "node-157",
+                  "name": "Trainer API: fine-tuning with built-in callbacks",
+                  "type": "Skill",
+                  "description": "",
+                  "status": "not-started",
+                  "difficulty": "medium",
+                  "priority": "medium",
+                  "notes": "",
+                  "resources": [],
+                  "children": []
+                },
+                {
+                  "id": "node-158",
+                  "name": "Model Hub: download open-source models (Llama, Mistral, Gemma)",
+                  "type": "Skill",
+                  "description": "",
+                  "status": "not-started",
+                  "difficulty": "medium",
+                  "priority": "medium",
+                  "notes": "",
+                  "resources": [],
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "node-159",
+          "name": "DATA PREPARATION FOR AI (The \"Unsexy 80%\" – CRITICAL)",
+          "type": "Topic",
+          "description": "",
+          "status": "not-started",
+          "difficulty": "medium",
+          "priority": "high",
+          "notes": "",
+          "resources": [],
+          "children": [
+            {
+              "id": "node-160",
+              "name": "Unstructured Data Parsing",
+              "type": "Topic",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": [
+                {
+                  "id": "node-161",
+                  "name": "PDFs: PyPDF2, pdfplumber, or Unstructured.io",
+                  "type": "Skill",
+                  "description": "",
+                  "status": "not-started",
+                  "difficulty": "medium",
+                  "priority": "medium",
+                  "notes": "",
+                  "resources": [],
+                  "children": []
+                },
+                {
+                  "id": "node-162",
+                  "name": "Office Docs: python-docx, openpyxl, pptx",
+                  "type": "Skill",
+                  "description": "",
+                  "status": "not-started",
+                  "difficulty": "medium",
+                  "priority": "medium",
+                  "notes": "",
+                  "resources": [],
+                  "children": []
+                },
+                {
+                  "id": "node-163",
+                  "name": "HTML/Web: BeautifulSoup, trafilatura",
+                  "type": "Skill",
+                  "description": "",
+                  "status": "not-started",
+                  "difficulty": "medium",
+                  "priority": "medium",
+                  "notes": "",
+                  "resources": [],
+                  "children": []
+                },
+                {
+                  "id": "node-164",
+                  "name": "Markdown & plaintext",
+                  "type": "Skill",
+                  "description": "",
+                  "status": "not-started",
+                  "difficulty": "medium",
+                  "priority": "medium",
+                  "notes": "",
+                  "resources": [],
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "node-165",
+              "name": "Table Extraction: Camelot, Tabula, or LLM-based extraction",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            },
+            {
+              "id": "node-166",
+              "name": "OCR: Tesseract, PaddleOCR (for scanned images)",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            },
+            {
+              "id": "node-167",
+              "name": "Chunking Strategies: fixed-size, semantic, recursive, sliding window",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            },
+            {
+              "id": "node-168",
+              "name": "Metadata Extraction: title, date, source URL, author",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            },
+            {
+              "id": "node-169",
+              "name": "Data Version Control (DVC): version datasets, embeddings, evaluation sets",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "node-170",
+          "name": "RAG (Retrieval-Augmented Generation) – #1 MOST VALUABLE SKILL",
+          "type": "Topic",
+          "description": "",
+          "status": "not-started",
+          "difficulty": "medium",
+          "priority": "high",
+          "notes": "",
+          "resources": [],
+          "children": [
+            {
+              "id": "node-171",
+              "name": "LangChain (Orchestration Framework)",
+              "type": "Topic",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": [
+                {
+                  "id": "node-172",
+                  "name": "Chains: LLMChain, SequentialChain, RouterChain",
+                  "type": "Skill",
+                  "description": "",
+                  "status": "not-started",
+                  "difficulty": "medium",
+                  "priority": "medium",
+                  "notes": "",
+                  "resources": [],
+                  "children": []
+                },
+                {
+                  "id": "node-173",
+                  "name": "Memory: ConversationBufferMemory, VectorStoreRetrieverMemory",
+                  "type": "Skill",
+                  "description": "",
+                  "status": "not-started",
+                  "difficulty": "medium",
+                  "priority": "medium",
+                  "notes": "",
+                  "resources": [],
+                  "children": []
+                },
+                {
+                  "id": "node-174",
+                  "name": "Tools: Search, Calculator, Python REPL, custom tools",
+                  "type": "Skill",
+                  "description": "",
+                  "status": "not-started",
+                  "difficulty": "medium",
+                  "priority": "medium",
+                  "notes": "",
+                  "resources": [],
+                  "children": []
+                },
+                {
+                  "id": "node-175",
+                  "name": "Agents: ReAct, OpenAI Tools, Multi-Agent systems",
+                  "type": "Skill",
+                  "description": "",
+                  "status": "not-started",
+                  "difficulty": "medium",
+                  "priority": "medium",
+                  "notes": "",
+                  "resources": [],
+                  "children": []
+                },
+                {
+                  "id": "node-176",
+                  "name": "LCEL (LangChain Expression Language) – composable pipelines",
+                  "type": "Skill",
+                  "description": "",
+                  "status": "not-started",
+                  "difficulty": "medium",
+                  "priority": "medium",
+                  "notes": "",
+                  "resources": [],
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "node-177",
+              "name": "RAG Pipeline (End-to-End)",
+              "type": "Topic",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": [
+                {
+                  "id": "node-178",
+                  "name": "Ingestion: load → split → embed → store",
+                  "type": "Skill",
+                  "description": "",
+                  "status": "not-started",
+                  "difficulty": "medium",
+                  "priority": "medium",
+                  "notes": "",
+                  "resources": [],
+                  "children": []
+                },
+                {
+                  "id": "node-179",
+                  "name": "Retrieval: vector similarity + keyword (hybrid) + reranking",
+                  "type": "Skill",
+                  "description": "",
+                  "status": "not-started",
+                  "difficulty": "medium",
+                  "priority": "medium",
+                  "notes": "",
+                  "resources": [],
+                  "children": []
+                },
+                {
+                  "id": "node-180",
+                  "name": "Augmentation: prompt construction with context",
+                  "type": "Skill",
+                  "description": "",
+                  "status": "not-started",
+                  "difficulty": "medium",
+                  "priority": "medium",
+                  "notes": "",
+                  "resources": [],
+                  "children": []
+                },
+                {
+                  "id": "node-181",
+                  "name": "Generation: LLM response with citations",
+                  "type": "Skill",
+                  "description": "",
+                  "status": "not-started",
+                  "difficulty": "medium",
+                  "priority": "medium",
+                  "notes": "",
+                  "resources": [],
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "node-182",
+              "name": "Vector Databases (Choose one primary)",
+              "type": "Topic",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": [
+                {
+                  "id": "node-183",
+                  "name": "Pinecone (fully managed, easiest to scale)",
+                  "type": "Skill",
+                  "description": "",
+                  "status": "not-started",
+                  "difficulty": "medium",
+                  "priority": "medium",
+                  "notes": "",
+                  "resources": [],
+                  "children": []
+                },
+                {
+                  "id": "node-184",
+                  "name": "Weaviate (open-source, hybrid search built-in)",
+                  "type": "Skill",
+                  "description": "",
+                  "status": "not-started",
+                  "difficulty": "medium",
+                  "priority": "medium",
+                  "notes": "",
+                  "resources": [],
+                  "children": []
+                },
+                {
+                  "id": "node-185",
+                  "name": "pgvector (PostgreSQL extension – no extra infra)",
+                  "type": "Skill",
+                  "description": "",
+                  "status": "not-started",
+                  "difficulty": "medium",
+                  "priority": "medium",
+                  "notes": "",
+                  "resources": [],
+                  "children": []
+                },
+                {
+                  "id": "node-186",
+                  "name": "Qdrant (high-performance, self-hosted)",
+                  "type": "Skill",
+                  "description": "",
+                  "status": "not-started",
+                  "difficulty": "medium",
+                  "priority": "medium",
+                  "notes": "",
+                  "resources": [],
+                  "children": []
+                },
+                {
+                  "id": "node-187",
+                  "name": "Milvus / Zilliz (for very large scale)",
+                  "type": "Skill",
+                  "description": "",
+                  "status": "not-started",
+                  "difficulty": "medium",
+                  "priority": "medium",
+                  "notes": "",
+                  "resources": [],
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "node-188",
+              "name": "Advanced RAG Techniques",
+              "type": "Topic",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": [
+                {
+                  "id": "node-189",
+                  "name": "HyDE (Hypothetical Document Embeddings)",
+                  "type": "Skill",
+                  "description": "",
+                  "status": "not-started",
+                  "difficulty": "medium",
+                  "priority": "medium",
+                  "notes": "",
+                  "resources": [],
+                  "children": []
+                },
+                {
+                  "id": "node-190",
+                  "name": "Self-RAG / Corrective RAG",
+                  "type": "Skill",
+                  "description": "",
+                  "status": "not-started",
+                  "difficulty": "medium",
+                  "priority": "medium",
+                  "notes": "",
+                  "resources": [],
+                  "children": []
+                },
+                {
+                  "id": "node-191",
+                  "name": "Parent Document Retriever (hierarchical chunks)",
+                  "type": "Skill",
+                  "description": "",
+                  "status": "not-started",
+                  "difficulty": "medium",
+                  "priority": "medium",
+                  "notes": "",
+                  "resources": [],
+                  "children": []
+                },
+                {
+                  "id": "node-192",
+                  "name": "Multi-Query Retriever (query expansion)",
+                  "type": "Skill",
+                  "description": "",
+                  "status": "not-started",
+                  "difficulty": "medium",
+                  "priority": "medium",
+                  "notes": "",
+                  "resources": [],
+                  "children": []
+                },
+                {
+                  "id": "node-193",
+                  "name": "Re-ranking: cross-encoders (Cohere, BGE-reranker)",
+                  "type": "Skill",
+                  "description": "",
+                  "status": "not-started",
+                  "difficulty": "medium",
+                  "priority": "medium",
+                  "notes": "",
+                  "resources": [],
+                  "children": []
+                },
+                {
+                  "id": "node-194",
+                  "name": "Query Routing: route to vector DB, SQL, or web search",
+                  "type": "Skill",
+                  "description": "",
+                  "status": "not-started",
+                  "difficulty": "medium",
+                  "priority": "medium",
+                  "notes": "",
+                  "resources": [],
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "node-195",
+              "name": "LlamaIndex (Alternative to LangChain – simpler for RAG)",
+              "type": "Topic",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": [
+                {
+                  "id": "node-196",
+                  "name": "Data connectors (100+ sources)",
+                  "type": "Skill",
+                  "description": "",
+                  "status": "not-started",
+                  "difficulty": "medium",
+                  "priority": "medium",
+                  "notes": "",
+                  "resources": [],
+                  "children": []
+                },
+                {
+                  "id": "node-197",
+                  "name": "Index structures: VectorStoreIndex, SummaryIndex, TreeIndex",
+                  "type": "Skill",
+                  "description": "",
+                  "status": "not-started",
+                  "difficulty": "medium",
+                  "priority": "medium",
+                  "notes": "",
+                  "resources": [],
+                  "children": []
+                },
+                {
+                  "id": "node-198",
+                  "name": "Query engines: custom retriever + response synthesizer",
+                  "type": "Skill",
+                  "description": "",
+                  "status": "not-started",
+                  "difficulty": "medium",
+                  "priority": "medium",
+                  "notes": "",
+                  "resources": [],
+                  "children": []
+                },
+                {
+                  "id": "node-199",
+                  "name": "Agents: OpenAIAgent, ReActAgent",
+                  "type": "Skill",
+                  "description": "",
+                  "status": "not-started",
+                  "difficulty": "medium",
+                  "priority": "medium",
+                  "notes": "",
+                  "resources": [],
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "node-200",
+          "name": "Prompt Engineering (Optimising LLM Interactions)",
+          "type": "Topic",
+          "description": "",
+          "status": "not-started",
+          "difficulty": "medium",
+          "priority": "high",
+          "notes": "",
+          "resources": [],
+          "children": [
+            {
+              "id": "node-201",
+              "name": "Zero-shot vs Few-shot (in-context examples)",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            },
+            {
+              "id": "node-202",
+              "name": "Chain-of-Thought (CoT) & Tree-of-Thought (ToT)",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            },
+            {
+              "id": "node-203",
+              "name": "System Prompts: setting behaviour, persona, constraints",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            },
+            {
+              "id": "node-204",
+              "name": "Structured Outputs: JSON mode, XML tags, Markdown",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            },
+            {
+              "id": "node-205",
+              "name": "Prompt Templates: versioning, A/B testing",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "node-206",
+          "name": "Structured Output Generation (Reliability – CRITICAL)",
+          "type": "Topic",
+          "description": "",
+          "status": "not-started",
+          "difficulty": "medium",
+          "priority": "high",
+          "notes": "",
+          "resources": [],
+          "children": [
+            {
+              "id": "node-207",
+              "name": "Instructor library (Python) – Pydantic + LLM",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            },
+            {
+              "id": "node-208",
+              "name": "Outlines library – constrained generation (regex/JSON)",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            },
+            {
+              "id": "node-209",
+              "name": "Function Calling (OpenAI, Anthropic, Mistral)",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            },
+            {
+              "id": "node-210",
+              "name": "Tool Calling: defining schemas for agent actions",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "node-211",
+          "name": "Guardrails & Safety (Production Necessity)",
+          "type": "Topic",
+          "description": "",
+          "status": "not-started",
+          "difficulty": "medium",
+          "priority": "high",
+          "notes": "",
+          "resources": [],
+          "children": [
+            {
+              "id": "node-212",
+              "name": "NeMo Guardrails (NVIDIA) – programmable guardrails",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            },
+            {
+              "id": "node-213",
+              "name": "Guardrails AI (guardrails-ai) – input/output validation",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            },
+            {
+              "id": "node-214",
+              "name": "Prompt Injection Detection: adversarial input filtering",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            },
+            {
+              "id": "node-215",
+              "name": "Topic Moderation: block unsafe topics (profanity, PII, legal)",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            },
+            {
+              "id": "node-216",
+              "name": "Output Fact-Checking: grounding against retrieved context",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "node-217",
+          "name": "Model Fine-Tuning (For custom domains)",
+          "type": "Topic",
+          "description": "",
+          "status": "not-started",
+          "difficulty": "medium",
+          "priority": "high",
+          "notes": "",
+          "resources": [],
+          "children": [
+            {
+              "id": "node-218",
+              "name": "LoRA (Low-Rank Adaptation) – PEFT library",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            },
+            {
+              "id": "node-219",
+              "name": "QLoRA – quantised LoRA (memory efficient)",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            },
+            {
+              "id": "node-220",
+              "name": "Instruction Tuning: formatting datasets (Alpaca, Dolly)",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            },
+            {
+              "id": "node-221",
+              "name": "Full Fine-Tuning: distributed (FSDP, DeepSpeed) – for large orgs",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            },
+            {
+              "id": "node-222",
+              "name": "DPO (Direct Preference Optimization) – RLHF alternative",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "node-223",
+          "name": "Evaluation & Testing for LLMs (Trust & Quality)",
+          "type": "Topic",
+          "description": "",
+          "status": "not-started",
+          "difficulty": "medium",
+          "priority": "high",
+          "notes": "",
+          "resources": [],
+          "children": [
+            {
+              "id": "node-224",
+              "name": "RAGAS – RAG-specific metrics (context precision, recall, faithfulness)",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            },
+            {
+              "id": "node-225",
+              "name": "DeepEval – hallucination detection, answer relevancy, toxicity",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            },
+            {
+              "id": "node-226",
+              "name": "LLM-as-a-Judge: use GPT-4 to evaluate outputs",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            },
+            {
+              "id": "node-227",
+              "name": "G-Eval: chain-of-thought based scoring",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            },
+            {
+              "id": "node-228",
+              "name": "Unit Tests: expected outputs for known queries (regression)",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            },
+            {
+              "id": "node-229",
+              "name": "Human Feedback Loops: rating interfaces, RLHF data collection",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "node-230",
+      "name": "CLOUD & DEPLOYMENT (GOING TO PRODUCTION)",
+      "type": "Section",
+      "description": "",
+      "status": "not-started",
+      "difficulty": "medium",
+      "priority": "high",
+      "notes": "",
+      "resources": [],
+      "children": [
+        {
+          "id": "node-231",
+          "name": "Docker (Containerisation – MASTER THIS)",
+          "type": "Topic",
+          "description": "",
+          "status": "not-started",
+          "difficulty": "medium",
+          "priority": "high",
+          "notes": "",
+          "resources": [],
+          "children": [
+            {
+              "id": "node-232",
+              "name": "Dockerfile: FROM, RUN, COPY, CMD, ENTRYPOINT",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            },
+            {
+              "id": "node-233",
+              "name": "docker build, docker run, docker push/pull",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            },
+            {
+              "id": "node-234",
+              "name": "docker-compose: multi-service (app + DB + Redis + vector DB)",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            },
+            {
+              "id": "node-235",
+              "name": "Volumes & Bind Mounts: persistent storage",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            },
+            {
+              "id": "node-236",
+              "name": "Container Registries: Docker Hub, AWS ECR, GCR",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "node-237",
+          "name": "Kubernetes (K8s – for scale, but start with basics)",
+          "type": "Topic",
+          "description": "",
+          "status": "not-started",
+          "difficulty": "medium",
+          "priority": "high",
+          "notes": "",
+          "resources": [],
+          "children": [
+            {
+              "id": "node-238",
+              "name": "Pods, Services (ClusterIP, NodePort, LoadBalancer)",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            },
+            {
+              "id": "node-239",
+              "name": "Deployments & StatefulSets (for databases)",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            },
+            {
+              "id": "node-240",
+              "name": "ConfigMaps & Secrets (environment config)",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            },
+            {
+              "id": "node-241",
+              "name": "Ingress (routing external traffic)",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            },
+            {
+              "id": "node-242",
+              "name": "Horizontal Pod Autoscaler (HPA) – scale with load",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            },
+            {
+              "id": "node-243",
+              "name": "Helm (package manager – templating charts)",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            },
+            {
+              "id": "node-244",
+              "name": "Kustomize (environment-specific overlays)",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "node-245",
+          "name": "Cloud Platform (Choose one primary – AWS recommended)",
+          "type": "Topic",
+          "description": "",
+          "status": "not-started",
+          "difficulty": "medium",
+          "priority": "high",
+          "notes": "",
+          "resources": [],
+          "children": [
+            {
+              "id": "node-246",
+              "name": "AWS (Deepen here)",
+              "type": "Topic",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": [
+                {
+                  "id": "node-247",
+                  "name": "Compute: EC2 (VMs), Lambda (serverless functions), ECS/EKS (containers)",
+                  "type": "Skill",
+                  "description": "",
+                  "status": "not-started",
+                  "difficulty": "medium",
+                  "priority": "medium",
+                  "notes": "",
+                  "resources": [],
+                  "children": []
+                },
+                {
+                  "id": "node-248",
+                  "name": "Storage: S3 (object), EBS (block), EFS (file)",
+                  "type": "Skill",
+                  "description": "",
+                  "status": "not-started",
+                  "difficulty": "medium",
+                  "priority": "medium",
+                  "notes": "",
+                  "resources": [],
+                  "children": []
+                },
+                {
+                  "id": "node-249",
+                  "name": "Databases: RDS (PostgreSQL), DynamoDB (NoSQL), ElastiCache (Redis)",
+                  "type": "Skill",
+                  "description": "",
+                  "status": "not-started",
+                  "difficulty": "medium",
+                  "priority": "medium",
+                  "notes": "",
+                  "resources": [],
+                  "children": []
+                },
+                {
+                  "id": "node-250",
+                  "name": "AI/ML: SageMaker (training/deployment), Bedrock (LLM APIs)",
+                  "type": "Skill",
+                  "description": "",
+                  "status": "not-started",
+                  "difficulty": "medium",
+                  "priority": "medium",
+                  "notes": "",
+                  "resources": [],
+                  "children": []
+                },
+                {
+                  "id": "node-251",
+                  "name": "Networking: VPC, subnets, security groups, Route 53 (DNS)",
+                  "type": "Skill",
+                  "description": "",
+                  "status": "not-started",
+                  "difficulty": "medium",
+                  "priority": "medium",
+                  "notes": "",
+                  "resources": [],
+                  "children": []
+                },
+                {
+                  "id": "node-252",
+                  "name": "API Gateway: REST/WebSocket APIs with throttling",
+                  "type": "Skill",
+                  "description": "",
+                  "status": "not-started",
+                  "difficulty": "medium",
+                  "priority": "medium",
+                  "notes": "",
+                  "resources": [],
+                  "children": []
+                },
+                {
+                  "id": "node-253",
+                  "name": "IAM (Identity & Access Management) – roles, policies, least privilege",
+                  "type": "Skill",
+                  "description": "",
+                  "status": "not-started",
+                  "difficulty": "medium",
+                  "priority": "medium",
+                  "notes": "",
+                  "resources": [],
+                  "children": []
+                },
+                {
+                  "id": "node-254",
+                  "name": "Monitoring: CloudWatch (logs, metrics, alarms)",
+                  "type": "Skill",
+                  "description": "",
+                  "status": "not-started",
+                  "difficulty": "medium",
+                  "priority": "medium",
+                  "notes": "",
+                  "resources": [],
+                  "children": []
+                },
+                {
+                  "id": "node-255",
+                  "name": "Cost Management: Cost Explorer, budgets, alerts",
+                  "type": "Skill",
+                  "description": "",
+                  "status": "not-started",
+                  "difficulty": "medium",
+                  "priority": "medium",
+                  "notes": "",
+                  "resources": [],
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "node-256",
+              "name": "Azure (Alternative)",
+              "type": "Topic",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": [
+                {
+                  "id": "node-257",
+                  "name": "Azure ML, OpenAI Service, Cosmos DB, App Service",
+                  "type": "Skill",
+                  "description": "",
+                  "status": "not-started",
+                  "difficulty": "medium",
+                  "priority": "medium",
+                  "notes": "",
+                  "resources": [],
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "node-258",
+              "name": "GCP (Alternative)",
+              "type": "Topic",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": [
+                {
+                  "id": "node-259",
+                  "name": "Vertex AI, BigQuery, Cloud Run, AlloyDB",
+                  "type": "Skill",
+                  "description": "",
+                  "status": "not-started",
+                  "difficulty": "medium",
+                  "priority": "medium",
+                  "notes": "",
+                  "resources": [],
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "node-260",
+      "name": "CI/CD & DEVOPS (AUTOMATE EVERYTHING)",
+      "type": "Section",
+      "description": "",
+      "status": "not-started",
+      "difficulty": "medium",
+      "priority": "high",
+      "notes": "",
+      "resources": [],
+      "children": [
+        {
+          "id": "node-261",
+          "name": "CI/CD Platforms",
+          "type": "Topic",
+          "description": "",
+          "status": "not-started",
+          "difficulty": "medium",
+          "priority": "high",
+          "notes": "",
+          "resources": [],
+          "children": [
+            {
+              "id": "node-262",
+              "name": "GitHub Actions (recommended – integrated with your code)",
+              "type": "Topic",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": [
+                {
+                  "id": "node-263",
+                  "name": "Workflows: on push, PR, or schedule",
+                  "type": "Skill",
+                  "description": "",
+                  "status": "not-started",
+                  "difficulty": "medium",
+                  "priority": "medium",
+                  "notes": "",
+                  "resources": [],
+                  "children": []
+                },
+                {
+                  "id": "node-264",
+                  "name": "Jobs: build, test, deploy steps",
+                  "type": "Skill",
+                  "description": "",
+                  "status": "not-started",
+                  "difficulty": "medium",
+                  "priority": "medium",
+                  "notes": "",
+                  "resources": [],
+                  "children": []
+                },
+                {
+                  "id": "node-265",
+                  "name": "Secrets: store API keys, AWS credentials",
+                  "type": "Skill",
+                  "description": "",
+                  "status": "not-started",
+                  "difficulty": "medium",
+                  "priority": "medium",
+                  "notes": "",
+                  "resources": [],
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "node-266",
+              "name": "GitLab CI (alternative)",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            },
+            {
+              "id": "node-267",
+              "name": "Jenkins (legacy but still common)",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "node-268",
+          "name": "Infrastructure as Code (IaC)",
+          "type": "Topic",
+          "description": "",
+          "status": "not-started",
+          "difficulty": "medium",
+          "priority": "high",
+          "notes": "",
+          "resources": [],
+          "children": [
+            {
+              "id": "node-269",
+              "name": "Terraform (Primary – cloud-agnostic)",
+              "type": "Topic",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": [
+                {
+                  "id": "node-270",
+                  "name": "HCL: resources, data sources, variables, outputs",
+                  "type": "Skill",
+                  "description": "",
+                  "status": "not-started",
+                  "difficulty": "medium",
+                  "priority": "medium",
+                  "notes": "",
+                  "resources": [],
+                  "children": []
+                },
+                {
+                  "id": "node-271",
+                  "name": "State Management: remote state (S3 + DynamoDB lock)",
+                  "type": "Skill",
+                  "description": "",
+                  "status": "not-started",
+                  "difficulty": "medium",
+                  "priority": "medium",
+                  "notes": "",
+                  "resources": [],
+                  "children": []
+                },
+                {
+                  "id": "node-272",
+                  "name": "Modules: reusable components (VPC, RDS, ECS)",
+                  "type": "Skill",
+                  "description": "",
+                  "status": "not-started",
+                  "difficulty": "medium",
+                  "priority": "medium",
+                  "notes": "",
+                  "resources": [],
+                  "children": []
+                },
+                {
+                  "id": "node-273",
+                  "name": "Terraform Cloud / Enterprise (team workflows)",
+                  "type": "Skill",
+                  "description": "",
+                  "status": "not-started",
+                  "difficulty": "medium",
+                  "priority": "medium",
+                  "notes": "",
+                  "resources": [],
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "node-274",
+              "name": "AWS CDK / Pulumi (alternative – if you prefer programming)",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "node-275",
+          "name": "Monitoring & Observability (3 Pillars)",
+          "type": "Topic",
+          "description": "",
+          "status": "not-started",
+          "difficulty": "medium",
+          "priority": "high",
+          "notes": "",
+          "resources": [],
+          "children": [
+            {
+              "id": "node-276",
+              "name": "Metrics: Prometheus + Grafana dashboards",
+              "type": "Topic",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": [
+                {
+                  "id": "node-277",
+                  "name": "System metrics: CPU, memory, request rate, error rate",
+                  "type": "Skill",
+                  "description": "",
+                  "status": "not-started",
+                  "difficulty": "medium",
+                  "priority": "medium",
+                  "notes": "",
+                  "resources": [],
+                  "children": []
+                },
+                {
+                  "id": "node-278",
+                  "name": "AI metrics: token usage, latency, hallucination rate",
+                  "type": "Skill",
+                  "description": "",
+                  "status": "not-started",
+                  "difficulty": "medium",
+                  "priority": "medium",
+                  "notes": "",
+                  "resources": [],
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "node-279",
+              "name": "Logging: ELK Stack (Elasticsearch, Logstash, Kibana) or Loki",
+              "type": "Topic",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": [
+                {
+                  "id": "node-280",
+                  "name": "Structured logs: JSON format with correlation IDs",
+                  "type": "Skill",
+                  "description": "",
+                  "status": "not-started",
+                  "difficulty": "medium",
+                  "priority": "medium",
+                  "notes": "",
+                  "resources": [],
+                  "children": []
+                },
+                {
+                  "id": "node-281",
+                  "name": "Log aggregation: centralised search & alerting",
+                  "type": "Skill",
+                  "description": "",
+                  "status": "not-started",
+                  "difficulty": "medium",
+                  "priority": "medium",
+                  "notes": "",
+                  "resources": [],
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "node-282",
+              "name": "Tracing: OpenTelemetry + Jaeger / Tempo",
+              "type": "Topic",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": [
+                {
+                  "id": "node-283",
+                  "name": "Distributed traces: frontend → API → vector DB → LLM API",
+                  "type": "Skill",
+                  "description": "",
+                  "status": "not-started",
+                  "difficulty": "medium",
+                  "priority": "medium",
+                  "notes": "",
+                  "resources": [],
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "node-284",
+          "name": "FinOps & Cost Control (Non-negotiable for AI)",
+          "type": "Topic",
+          "description": "",
+          "status": "not-started",
+          "difficulty": "medium",
+          "priority": "high",
+          "notes": "",
+          "resources": [],
+          "children": [
+            {
+              "id": "node-285",
+              "name": "API Usage Tracking: per request/user (tokens in/out)",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            },
+            {
+              "id": "node-286",
+              "name": "Budget Alerts: AWS Budgets, OpenAI usage alerts",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            },
+            {
+              "id": "node-287",
+              "name": "Auto-Fallback: switch from GPT-4 to GPT-3.5 on high cost",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            },
+            {
+              "id": "node-288",
+              "name": "Caching: semantic cache (GPTCache) to avoid repeated LLM calls",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            },
+            {
+              "id": "node-289",
+              "name": "Model Routing: cheap model for simple queries, expensive for complex",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "node-290",
+          "name": "Model Deployment & Serving (for your own models)",
+          "type": "Topic",
+          "description": "",
+          "status": "not-started",
+          "difficulty": "medium",
+          "priority": "high",
+          "notes": "",
+          "resources": [],
+          "children": [
+            {
+              "id": "node-291",
+              "name": "TensorFlow Serving / TorchServe (for PyTorch)",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            },
+            {
+              "id": "node-292",
+              "name": "Triton Inference Server (NVIDIA – multi-framework)",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            },
+            {
+              "id": "node-293",
+              "name": "vLLM (high-throughput LLM serving)",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            },
+            {
+              "id": "node-294",
+              "name": "TGI (Hugging Face Text Generation Inference)",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            },
+            {
+              "id": "node-295",
+              "name": "Serverless Inference: AWS Lambda, Vercel Edge, Cloudflare Workers",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "node-296",
+      "name": "TESTING & QUALITY (SHIP WITH CONFIDENCE)",
+      "type": "Section",
+      "description": "",
+      "status": "not-started",
+      "difficulty": "medium",
+      "priority": "high",
+      "notes": "",
+      "resources": [],
+      "children": [
+        {
+          "id": "node-297",
+          "name": "Unit Testing",
+          "type": "Topic",
+          "description": "",
+          "status": "not-started",
+          "difficulty": "medium",
+          "priority": "high",
+          "notes": "",
+          "resources": [],
+          "children": [
+            {
+              "id": "node-298",
+              "name": "Python: pytest, unittest, pytest-cov (coverage)",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            },
+            {
+              "id": "node-299",
+              "name": "JavaScript: Jest, Vitest",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            },
+            {
+              "id": "node-300",
+              "name": "Mocking: pytest-mock, jest.fn() – mock LLM API calls",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "node-301",
+          "name": "API Testing (Integration)",
+          "type": "Topic",
+          "description": "",
+          "status": "not-started",
+          "difficulty": "medium",
+          "priority": "high",
+          "notes": "",
+          "resources": [],
+          "children": [
+            {
+              "id": "node-302",
+              "name": "Postman / Insomnia (manual exploration)",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            },
+            {
+              "id": "node-303",
+              "name": "REST Assured / SuperTest (automated API tests)",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            },
+            {
+              "id": "node-304",
+              "name": "Contract Testing: Pact (consumer-driven)",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "node-305",
+          "name": "End-to-End Testing",
+          "type": "Topic",
+          "description": "",
+          "status": "not-started",
+          "difficulty": "medium",
+          "priority": "high",
+          "notes": "",
+          "resources": [],
+          "children": [
+            {
+              "id": "node-306",
+              "name": "Playwright (recommended) or Cypress",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            },
+            {
+              "id": "node-307",
+              "name": "User flows: login → ask question → see streaming response",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            },
+            {
+              "id": "node-308",
+              "name": "Visual Regression: Percy, BackstopJS",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "node-309",
+          "name": "AI-Specific Testing (CRITICAL)",
+          "type": "Topic",
+          "description": "",
+          "status": "not-started",
+          "difficulty": "medium",
+          "priority": "high",
+          "notes": "",
+          "resources": [],
+          "children": [
+            {
+              "id": "node-310",
+              "name": "Model Evaluation: accuracy, hallucination, bias benchmarks",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            },
+            {
+              "id": "node-311",
+              "name": "Data Drift Detection: monitor input distribution changes",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            },
+            {
+              "id": "node-312",
+              "name": "Concept Drift: model performance over time",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            },
+            {
+              "id": "node-313",
+              "name": "RAG Evaluation: RAGAS, DeepEval (context relevance, faithfulness)",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            },
+            {
+              "id": "node-314",
+              "name": "Adversarial Testing: prompt injection, jailbreak attempts",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "node-315",
+          "name": "Performance & Load Testing",
+          "type": "Topic",
+          "description": "",
+          "status": "not-started",
+          "difficulty": "medium",
+          "priority": "high",
+          "notes": "",
+          "resources": [],
+          "children": [
+            {
+              "id": "node-316",
+              "name": "k6 or Locust (simulate traffic)",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            },
+            {
+              "id": "node-317",
+              "name": "Load Tests: peak concurrent users",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            },
+            {
+              "id": "node-318",
+              "name": "Soak Tests: long-duration stability",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            },
+            {
+              "id": "node-319",
+              "name": "Latency Profiling: p50, p95, p99 response times",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "node-320",
+      "name": "ESSENTIAL TOOLS (YOUR DAILY DRIVERS)",
+      "type": "Section",
+      "description": "",
+      "status": "not-started",
+      "difficulty": "medium",
+      "priority": "high",
+      "notes": "",
+      "resources": [],
+      "children": [
+        {
+          "id": "node-321",
+          "name": "IDEs & Editors",
+          "type": "Topic",
+          "description": "",
+          "status": "not-started",
+          "difficulty": "medium",
+          "priority": "high",
+          "notes": "",
+          "resources": [],
+          "children": [
+            {
+              "id": "node-322",
+              "name": "VS Code (primary)",
+              "type": "Topic",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": [
+                {
+                  "id": "node-323",
+                  "name": "Extensions: Python, Pylance, Copilot, ESLint, Prettier",
+                  "type": "Skill",
+                  "description": "",
+                  "status": "not-started",
+                  "difficulty": "medium",
+                  "priority": "medium",
+                  "notes": "",
+                  "resources": [],
+                  "children": []
+                },
+                {
+                  "id": "node-324",
+                  "name": "Remote Development: SSH, Containers, WSL",
+                  "type": "Skill",
+                  "description": "",
+                  "status": "not-started",
+                  "difficulty": "medium",
+                  "priority": "medium",
+                  "notes": "",
+                  "resources": [],
+                  "children": []
+                },
+                {
+                  "id": "node-325",
+                  "name": "Jupyter Notebooks inside VS Code",
+                  "type": "Skill",
+                  "description": "",
+                  "status": "not-started",
+                  "difficulty": "medium",
+                  "priority": "medium",
+                  "notes": "",
+                  "resources": [],
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "node-326",
+              "name": "PyCharm / WebStorm (alternative – heavy but powerful)",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "node-327",
+          "name": "Package Managers",
+          "type": "Topic",
+          "description": "",
+          "status": "not-started",
+          "difficulty": "medium",
+          "priority": "high",
+          "notes": "",
+          "resources": [],
+          "children": [
+            {
+              "id": "node-328",
+              "name": "Python: pip, conda, poetry (dependency locking)",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            },
+            {
+              "id": "node-329",
+              "name": "Node.js: npm, yarn, pnpm",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "node-330",
+          "name": "Linux / Shell (Indispensable)",
+          "type": "Topic",
+          "description": "",
+          "status": "not-started",
+          "difficulty": "medium",
+          "priority": "high",
+          "notes": "",
+          "resources": [],
+          "children": [
+            {
+              "id": "node-331",
+              "name": "Basic Commands: ls, cd, rm, mv, cp, grep, find, sed, awk",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            },
+            {
+              "id": "node-332",
+              "name": "Shell Scripting (Bash): conditionals, loops, functions",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            },
+            {
+              "id": "node-333",
+              "name": "SSH: remote access, port forwarding, SSH keys",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            },
+            {
+              "id": "node-334",
+              "name": "Process Management: ps, top, htop, kill, systemctl",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            },
+            {
+              "id": "node-335",
+              "name": "Network: curl, wget, netstat, ss, traceroute",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            },
+            {
+              "id": "node-336",
+              "name": "Permissions: chmod, chown, umask",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "node-337",
+          "name": "API Development & Debugging",
+          "type": "Topic",
+          "description": "",
+          "status": "not-started",
+          "difficulty": "medium",
+          "priority": "high",
+          "notes": "",
+          "resources": [],
+          "children": [
+            {
+              "id": "node-338",
+              "name": "Postman / Insomnia (API client)",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            },
+            {
+              "id": "node-339",
+              "name": "Swagger / OpenAPI UI (built into FastAPI)",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            },
+            {
+              "id": "node-340",
+              "name": "GraphQL Playground / Apollo Studio",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            },
+            {
+              "id": "node-341",
+              "name": "HTTPie / curl (command-line)",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "node-342",
+          "name": "Prototyping & Demos (Speed matters)",
+          "type": "Topic",
+          "description": "",
+          "status": "not-started",
+          "difficulty": "medium",
+          "priority": "high",
+          "notes": "",
+          "resources": [],
+          "children": [
+            {
+              "id": "node-343",
+              "name": "Gradio / Streamlit (Python)",
+              "type": "Topic",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": [
+                {
+                  "id": "node-344",
+                  "name": "Rapid UI for AI demos (no frontend code)",
+                  "type": "Skill",
+                  "description": "",
+                  "status": "not-started",
+                  "difficulty": "medium",
+                  "priority": "medium",
+                  "notes": "",
+                  "resources": [],
+                  "children": []
+                },
+                {
+                  "id": "node-345",
+                  "name": "Chat interfaces, file uploads, visualisations",
+                  "type": "Skill",
+                  "description": "",
+                  "status": "not-started",
+                  "difficulty": "medium",
+                  "priority": "medium",
+                  "notes": "",
+                  "resources": [],
+                  "children": []
+                },
+                {
+                  "id": "node-346",
+                  "name": "Shareable public links (huggingface spaces)",
+                  "type": "Skill",
+                  "description": "",
+                  "status": "not-started",
+                  "difficulty": "medium",
+                  "priority": "medium",
+                  "notes": "",
+                  "resources": [],
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "node-347",
+          "name": "Secret Management",
+          "type": "Topic",
+          "description": "",
+          "status": "not-started",
+          "difficulty": "medium",
+          "priority": "high",
+          "notes": "",
+          "resources": [],
+          "children": [
+            {
+              "id": "node-348",
+              "name": ".env files (development)",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            },
+            {
+              "id": "node-349",
+              "name": "HashiCorp Vault (production – centralised)",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            },
+            {
+              "id": "node-350",
+              "name": "AWS Secrets Manager / Azure Key Vault",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            },
+            {
+              "id": "node-351",
+              "name": "GitHub Secrets (CI/CD)",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "node-352",
+          "name": "AI Experiment Tracking",
+          "type": "Topic",
+          "description": "",
+          "status": "not-started",
+          "difficulty": "medium",
+          "priority": "high",
+          "notes": "",
+          "resources": [],
+          "children": [
+            {
+              "id": "node-353",
+              "name": "MLflow: tracking, projects, models, registry",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            },
+            {
+              "id": "node-354",
+              "name": "Weights & Biases (wandb): visualisation, sweeps, reports",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            },
+            {
+              "id": "node-355",
+              "name": "TensorBoard: PyTorch/TensorFlow visualisation",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "node-356",
+      "name": "SOFT SKILLS & PROFESSIONAL PRACTICES",
+      "type": "Section",
+      "description": "",
+      "status": "not-started",
+      "difficulty": "medium",
+      "priority": "high",
+      "notes": "",
+      "resources": [],
+      "children": [
+        {
+          "id": "node-357",
+          "name": "Communication",
+          "type": "Topic",
+          "description": "",
+          "status": "not-started",
+          "difficulty": "medium",
+          "priority": "high",
+          "notes": "",
+          "resources": [],
+          "children": [
+            {
+              "id": "node-358",
+              "name": "Technical Writing: READMEs, API docs, architecture decisions (ADRs)",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            },
+            {
+              "id": "node-359",
+              "name": "Presenting: demos, whiteboarding system design",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            },
+            {
+              "id": "node-360",
+              "name": "Translating AI concepts to non-technical stakeholders",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "node-361",
+          "name": "Problem-Solving & Systems Thinking",
+          "type": "Topic",
+          "description": "",
+          "status": "not-started",
+          "difficulty": "medium",
+          "priority": "high",
+          "notes": "",
+          "resources": [],
+          "children": [
+            {
+              "id": "node-362",
+              "name": "Debugging: logs, breakpoints, profiling (cProfile, py-spy)",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            },
+            {
+              "id": "node-363",
+              "name": "Trade-off Analysis: latency vs cost, accuracy vs speed",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            },
+            {
+              "id": "node-364",
+              "name": "First Principles Thinking: decompose complex AI problems",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            },
+            {
+              "id": "node-365",
+              "name": "Risk Assessment: what if the LLM fails / hallucinates?",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "node-366",
+          "name": "Collaboration",
+          "type": "Topic",
+          "description": "",
+          "status": "not-started",
+          "difficulty": "medium",
+          "priority": "high",
+          "notes": "",
+          "resources": [],
+          "children": [
+            {
+              "id": "node-367",
+              "name": "Code Reviews: giving constructive, receiving gracefully",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            },
+            {
+              "id": "node-368",
+              "name": "Pair Programming",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            },
+            {
+              "id": "node-369",
+              "name": "Agile/Scrum: standups, sprint planning, retrospectives",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            },
+            {
+              "id": "node-370",
+              "name": "Cross-functional: working with designers, product managers, data teams",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "node-371",
+          "name": "Business & Product Sense",
+          "type": "Topic",
+          "description": "",
+          "status": "not-started",
+          "difficulty": "medium",
+          "priority": "high",
+          "notes": "",
+          "resources": [],
+          "children": [
+            {
+              "id": "node-372",
+              "name": "Understanding user needs for AI features",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            },
+            {
+              "id": "node-373",
+              "name": "Prioritisation: MVP vs nice-to-have",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            },
+            {
+              "id": "node-374",
+              "name": "ROI of AI: when to use LLM vs heuristic vs rule-based",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "node-375",
+          "name": "Continuous Learning",
+          "type": "Topic",
+          "description": "",
+          "status": "not-started",
+          "difficulty": "medium",
+          "priority": "high",
+          "notes": "",
+          "resources": [],
+          "children": [
+            {
+              "id": "node-376",
+              "name": "Reading papers (arXiv, distill.pub)",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            },
+            {
+              "id": "node-377",
+              "name": "Following AI news (The Batch, Latent Space)",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            },
+            {
+              "id": "node-378",
+              "name": "Open Source contributions (LangChain, Hugging Face)",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            },
+            {
+              "id": "node-379",
+              "name": "Building side projects to test new tech",
+              "type": "Skill",
+              "description": "",
+              "status": "not-started",
+              "difficulty": "medium",
+              "priority": "high",
+              "notes": "",
+              "resources": [],
+              "children": []
+            }
+          ]
+        }
+      ]
+    }
+  ];

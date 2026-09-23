@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Full-Stack AI Engineer Roadmap</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="top">
+        <div>
+            <h1>Full-Stack AI Engineer</h1>
+            <p>Roadmap Control Center</p>
+        </div>
+        <div class="actions">
+            <span id="sync" class="pill">Local</span>
+            <button id="github">GitHub</button>
+            <button id="history">Versions</button>
+            <button id="undo">Undo</button>
+            <button id="redo">Redo</button>
+            <button id="expand">Expand</button>
+            <button id="collapse">Collapse</button>
+            <button id="theme">Dark</button>
+            <button id="export">Export</button>
+            <button id="import">Import</button>
+        </div>
+    </header>
+    <main>
+        <section class="hero">
+            <div>
+                <span>FINAL ROADMAP</span>
+                <h2>Learn → Build → Deploy → Prove</h2>
+                <p>Edit the roadmap in the browser. Changes are saved locally immediately. When GitHub is connected,
+                    every saved change is committed to <code>roadmap.json</code>.</p>
+            </div>
+            <strong id="pct">0%</strong>
+        </section>
+        <section class="progress">
+            <div>
+                <b>Overall progress</b>
+                <small id="progressText"></small>
+            </div>
+            <strong id="pct2">0%</strong>
+            <div class="bar">
+                <i id="bar"></i>
+            </div>
+        </section>
+        <section id="stats" class="stats"></section>
+        <section id="sectionProgress" class="sectionProgress"></section>
+        <section class="toolbar">
+            <input id="search" placeholder="Search topics, notes, resources…">
+            <select id="status">
+                <option value="all">All status</option>
+                <option value="not-started">Not started</option>
+                <option value="in-progress">In progress</option>
+                <option value="completed">Completed</option>
+            </select>
+            <select id="difficulty">
+                <option value="all">All difficulty</option>
+                <option value="easy">Easy</option>
+                <option value="medium">Medium</option>
+                <option value="hard">Hard</option>
+            </select>
+            <select id="priority">
+                <option value="all">All priority</option>
+                <option value="low">Low</option>
+                <option value="medium">Medium</option>
+                <option value="high">High</option>
+            </select>
+            <button id="addRoot" class="primary">+ Section</button>
+        </section>
+        <div id="roadmap"></div>
+    </main>
+    <div id="editor" class="modal">
+        <div class="box">
+            <button class="x" data-close="editor">×</button>
+            <h3 id="editorTitle">Edit item</h3>
+            <form id="form">
+                <input id="editId" type="hidden">
+                <input id="parentId" type="hidden">
+                <label>
+                    Name
+                    <input id="name" required maxlength="300">
+                </label>
+                <label>
+                    Description
+                    <textarea id="description" rows="3"></textarea>
+                </label>
+                <div id="leafFields">
+                    <div class="grid">
+                        <label>
+                            Status
+                            <select id="editStatus">
+                                <option value="not-started">Not started</option>
+                                <option value="in-progress">In progress</option>
+                                <option value="completed">Completed</option>
+                            </select>
+                        </label>
+                        <label>
+                            Difficulty
+                            <select id="editDifficulty">
+                                <option value="easy">Easy</option>
+                                <option value="medium">Medium</option>
+                                <option value="hard">Hard</option>
+                            </select>
+                        </label>
+                        <label>
+                            Priority
+                            <select id="editPriority">
+                                <option value="low">Low</option>
+                                <option value="medium">Medium</option>
+                                <option value="high">High</option>
+                            </select>
+                        </label>
+                    </div>
+                    <label>
+                        Target date
+                        <input id="target" type="date">
+                    </label>
+                    <label>
+                        Notes
+                        <textarea id="notes" rows="5"></textarea>
+                    </label>
+                    <label>
+                        Resources
+                        <textarea id="resources" rows="4" placeholder="One URL per line"></textarea>
+                    </label>
+                </div>
+                <div class="modalActions">
+                    <button type="button" data-close="editor">Cancel</button>
+                    <button class="primary">Save</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div id="githubModal" class="modal">
+        <div class="box">
+            <button class="x" data-close="githubModal">×</button>
+            <h3>GitHub persistence</h3>
+            <p>Reading is public and needs no token. Writing needs a GitHub Personal Access Token with repository
+                <b>Contents: Read and write</b> permission.</p>
+            <div class="grid">
+                <label>
+                    Owner
+                    <input id="owner" placeholder="username">
+                </label>
+                <label>
+                    Repository
+                    <input id="repo" placeholder="roadmap-repo">
+                </label>
+                <label>
+                    Branch
+                    <input id="branch" value="main">
+                </label>
+            </div>
+            <label>
+                Token
+                <input id="token" type="password" autocomplete="off" placeholder="github_pat_…">
+            </label>
+            <p class="hint">The token is stored only in this browser. Your roadmap itself is stored in GitHub, so the
+                roadmap changes are available on every device that opens the repository's deployed site.</p>
+            <div class="modalActions">
+                <button id="disconnect">Disconnect</button>
+                <button id="pull">Pull latest</button>
+                <button id="saveGithub" class="primary">Connect + save</button>
+            </div>
+        </div>
+    </div>
+    <div id="historyModal" class="modal">
+        <div class="box wide">
+            <button class="x" data-close="historyModal">×</button>
+            <h3>GitHub versions</h3>
+            <p id="historyStatus" class="hint"></p>
+            <div id="historyList"></div>
+        </div>
+    </div>
+    <input id="file" type="file" accept="application/json,.json" hidden>
+    <div id="toast"></div>
+    <script src="roadmap-data.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

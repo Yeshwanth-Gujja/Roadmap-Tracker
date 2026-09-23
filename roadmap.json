@@ -1,0 +1,71 @@
+[
+  {
+    "id": "custom-muec2khf-ygj7ba",
+    "name": "Tools",
+    "type": "Section",
+    "description": "These are the tools required to Deploy and Maintain the projects",
+    "status": "in-progress",
+    "difficulty": "easy",
+    "priority": "high",
+    "targetDate": "",
+    "notes": "",
+    "resources": [],
+    "children": [],
+    "_open": false
+  },
+  {
+    "id": "custom-muecpnbl-98uen0",
+    "name": "jf",
+    "type": "Section",
+    "description": "f",
+    "status": "not-started",
+    "difficulty": "medium",
+    "priority": "medium",
+    "targetDate": "",
+    "notes": "",
+    "resources": [],
+    "children": []
+  },
+  {
+    "id": "custom-muedbz1f-fkx7yt",
+    "name": "Proo",
+    "description": "",
+    "status": "not-started",
+    "difficulty": "medium",
+    "priority": "medium",
+    "targetDate": "",
+    "notes": "",
+    "resources": [],
+    "type": "Section",
+    "children": [
+      {
+        "id": "custom-muedc7eh-vosrtl",
+        "name": "y",
+        "description": "",
+        "status": "not-started",
+        "difficulty": "medium",
+        "priority": "medium",
+        "targetDate": "",
+        "notes": "",
+        "resources": [],
+        "type": "Section",
+        "children": [],
+        "_open": true
+      },
+      {
+        "id": "custom-muedu6jl-p5fcbm",
+        "name": "jb",
+        "description": "",
+        "status": "not-started",
+        "difficulty": "medium",
+        "priority": "medium",
+        "targetDate": "",
+        "notes": "",
+        "resources": [],
+        "type": "Topic",
+        "children": []
+      }
+    ],
+    "_open": true
+  }
+]
