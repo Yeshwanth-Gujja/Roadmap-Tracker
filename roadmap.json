@@ -11,45 +11,5 @@
     "notes": "",
     "resources": [],
     "children": []
-  },
-  {
-    "id": "custom-muedbz1f-fkx7yt",
-    "name": "Proo",
-    "type": "Section",
-    "description": "",
-    "status": "not-started",
-    "difficulty": "medium",
-    "priority": "medium",
-    "targetDate": "",
-    "notes": "",
-    "resources": [],
-    "children": [
-      {
-        "id": "custom-muedc7eh-vosrtl",
-        "name": "y",
-        "type": "Section",
-        "description": "",
-        "status": "not-started",
-        "difficulty": "medium",
-        "priority": "medium",
-        "targetDate": "",
-        "notes": "",
-        "resources": [],
-        "children": []
-      },
-      {
-        "id": "custom-muedu6jl-p5fcbm",
-        "name": "jb",
-        "type": "Topic",
-        "description": "",
-        "status": "not-started",
-        "difficulty": "medium",
-        "priority": "medium",
-        "targetDate": "",
-        "notes": "",
-        "resources": [],
-        "children": []
-      }
-    ]
   }
 ]
