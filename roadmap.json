@@ -92,5 +92,18 @@
     "resources": [],
     "type": "Section",
     "children": []
+  },
+  {
+    "id": "custom-muiid8s4-0ymj05",
+    "name": "Core CS",
+    "description": "",
+    "status": "not-started",
+    "difficulty": "medium",
+    "priority": "medium",
+    "targetDate": "",
+    "notes": "",
+    "resources": [],
+    "type": "Section",
+    "children": []
   }
 ]
