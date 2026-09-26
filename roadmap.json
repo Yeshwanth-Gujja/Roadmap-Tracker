@@ -53,5 +53,18 @@
     "resources": [],
     "type": "Section",
     "children": []
+  },
+  {
+    "id": "custom-muiicbl0-qljqvu",
+    "name": "Programing",
+    "description": "",
+    "status": "not-started",
+    "difficulty": "medium",
+    "priority": "medium",
+    "targetDate": "",
+    "notes": "",
+    "resources": [],
+    "type": "Section",
+    "children": []
   }
 ]
