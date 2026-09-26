@@ -93,6 +93,19 @@
           }
         ],
         "_open": true
+      },
+      {
+        "id": "custom-muiit1vl-2wxt8p",
+        "name": "HTML File Stucture",
+        "description": "",
+        "status": "not-started",
+        "difficulty": "medium",
+        "priority": "medium",
+        "targetDate": "",
+        "notes": "",
+        "resources": [],
+        "type": "Section",
+        "children": []
       }
     ],
     "_open": true
