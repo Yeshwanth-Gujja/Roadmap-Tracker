@@ -197,19 +197,6 @@
           }
         ],
         "_open": true
-      },
-      {
-        "id": "custom-muiiwhm0-s11ivu",
-        "name": "Forms",
-        "description": "",
-        "status": "not-started",
-        "difficulty": "medium",
-        "priority": "medium",
-        "targetDate": "",
-        "notes": "",
-        "resources": [],
-        "type": "Section",
-        "children": []
       }
     ],
     "_open": true
