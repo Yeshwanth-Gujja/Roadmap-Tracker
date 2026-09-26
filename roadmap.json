@@ -168,6 +168,19 @@
             "resources": [],
             "type": "Section",
             "children": []
+          },
+          {
+            "id": "custom-muiix0aj-wuweon",
+            "name": "Embedding Media",
+            "description": "",
+            "status": "not-started",
+            "difficulty": "medium",
+            "priority": "medium",
+            "targetDate": "",
+            "notes": "",
+            "resources": [],
+            "type": "Section",
+            "children": []
           }
         ],
         "_open": true
@@ -183,7 +196,8 @@
         "notes": "",
         "resources": [],
         "type": "Section",
-        "children": []
+        "children": [],
+        "_open": false
       },
       {
         "id": "custom-muiiwhm0-s11ivu",
