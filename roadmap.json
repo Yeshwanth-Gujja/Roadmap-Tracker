@@ -27,18 +27,5 @@
       }
     ],
     "_open": false
-  },
-  {
-    "id": "custom-muiiajo3-2tjh62",
-    "name": "Devops",
-    "description": "",
-    "status": "not-started",
-    "difficulty": "medium",
-    "priority": "medium",
-    "targetDate": "",
-    "notes": "",
-    "resources": [],
-    "type": "Section",
-    "children": []
   }
 ]
