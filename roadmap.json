@@ -129,6 +129,19 @@
             "resources": [],
             "type": "Section",
             "children": []
+          },
+          {
+            "id": "custom-muiiv9ya-pr9xdm",
+            "name": "Grouping Text",
+            "description": "",
+            "status": "not-started",
+            "difficulty": "medium",
+            "priority": "medium",
+            "targetDate": "",
+            "notes": "",
+            "resources": [],
+            "type": "Section",
+            "children": []
           }
         ],
         "_open": true
