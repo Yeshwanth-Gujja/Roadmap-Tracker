@@ -40,5 +40,18 @@
     "resources": [],
     "type": "Section",
     "children": []
+  },
+  {
+    "id": "custom-muiiaque-cnq653",
+    "name": "Frontend",
+    "description": "",
+    "status": "not-started",
+    "difficulty": "medium",
+    "priority": "medium",
+    "targetDate": "",
+    "notes": "",
+    "resources": [],
+    "type": "Section",
+    "children": []
   }
 ]
