@@ -77,6 +77,19 @@
             "resources": [],
             "type": "Topic",
             "children": []
+          },
+          {
+            "id": "custom-muiiscl8-c6e3rz",
+            "name": "How the web works",
+            "description": "",
+            "status": "not-started",
+            "difficulty": "medium",
+            "priority": "medium",
+            "targetDate": "",
+            "notes": "",
+            "resources": [],
+            "type": "Section",
+            "children": []
           }
         ],
         "_open": true
