@@ -79,5 +79,18 @@
     "resources": [],
     "type": "Section",
     "children": []
+  },
+  {
+    "id": "custom-muiicv5w-zu23ie",
+    "name": "Frameworks",
+    "description": "",
+    "status": "not-started",
+    "difficulty": "medium",
+    "priority": "medium",
+    "targetDate": "",
+    "notes": "",
+    "resources": [],
+    "type": "Section",
+    "children": []
   }
 ]
