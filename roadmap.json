@@ -39,7 +39,22 @@
     "notes": "",
     "resources": [],
     "type": "Section",
-    "children": []
+    "children": [
+      {
+        "id": "custom-muiidzso-zgtp29",
+        "name": "HTML",
+        "description": "This is the skeleton of frontend",
+        "status": "not-started",
+        "difficulty": "medium",
+        "priority": "medium",
+        "targetDate": "",
+        "notes": "",
+        "resources": [],
+        "type": "Topic",
+        "children": []
+      }
+    ],
+    "_open": true
   },
   {
     "id": "custom-muiibsto-409no2",
