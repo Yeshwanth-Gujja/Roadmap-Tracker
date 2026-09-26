@@ -51,7 +51,21 @@
         "notes": "",
         "resources": [],
         "type": "Section",
-        "children": [],
+        "children": [
+          {
+            "id": "custom-muiigks7-l3xvue",
+            "name": "Introduction",
+            "description": "",
+            "status": "not-started",
+            "difficulty": "medium",
+            "priority": "medium",
+            "targetDate": "",
+            "notes": "",
+            "resources": [],
+            "type": "Topic",
+            "children": []
+          }
+        ],
         "_open": true
       }
     ],
