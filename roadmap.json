@@ -155,6 +155,19 @@
             "resources": [],
             "type": "Section",
             "children": []
+          },
+          {
+            "id": "custom-muiivy6j-frqg5i",
+            "name": "Lists and Types",
+            "description": "",
+            "status": "not-started",
+            "difficulty": "medium",
+            "priority": "medium",
+            "targetDate": "",
+            "notes": "",
+            "resources": [],
+            "type": "Section",
+            "children": []
           }
         ],
         "_open": true
