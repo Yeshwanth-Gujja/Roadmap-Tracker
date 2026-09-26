@@ -14,6 +14,7 @@
       {
         "id": "custom-muef1c15-d7t262",
         "name": "CLI & Linux Basics",
+        "type": "Section",
         "description": "It is used to run the command lines arguments",
         "status": "not-started",
         "difficulty": "medium",
@@ -21,10 +22,23 @@
         "targetDate": "",
         "notes": "",
         "resources": [],
-        "type": "Section",
-        "children": []
+        "children": [],
+        "_open": false
       }
     ],
-    "_open": true
+    "_open": false
+  },
+  {
+    "id": "custom-muiiajo3-2tjh62",
+    "name": "Devops",
+    "description": "",
+    "status": "not-started",
+    "difficulty": "medium",
+    "priority": "medium",
+    "targetDate": "",
+    "notes": "",
+    "resources": [],
+    "type": "Section",
+    "children": []
   }
 ]
