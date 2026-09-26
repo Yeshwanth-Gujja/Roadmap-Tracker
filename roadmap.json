@@ -116,6 +116,19 @@
             "resources": [],
             "type": "Section",
             "children": []
+          },
+          {
+            "id": "custom-muiiunzy-qf0z7m",
+            "name": "Textual tags",
+            "description": "",
+            "status": "not-started",
+            "difficulty": "medium",
+            "priority": "medium",
+            "targetDate": "",
+            "notes": "",
+            "resources": [],
+            "type": "Section",
+            "children": []
           }
         ],
         "_open": true
