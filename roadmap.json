@@ -43,15 +43,16 @@
       {
         "id": "custom-muiif2a8-1aee42",
         "name": "HTML",
-        "description": "",
-        "status": "not-started",
-        "difficulty": "medium",
+        "description": "This is the skeleton of the Frontend",
+        "status": "in-progress",
+        "difficulty": "easy",
         "priority": "medium",
-        "targetDate": "",
+        "targetDate": "2026-09-27",
         "notes": "",
         "resources": [],
         "type": "Section",
-        "children": []
+        "children": [],
+        "_open": true
       }
     ],
     "_open": true
