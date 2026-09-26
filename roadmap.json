@@ -27,5 +27,18 @@
       }
     ],
     "_open": false
+  },
+  {
+    "id": "custom-muiible0-htwaej",
+    "name": "Frontend",
+    "description": "",
+    "status": "not-started",
+    "difficulty": "medium",
+    "priority": "medium",
+    "targetDate": "",
+    "notes": "",
+    "resources": [],
+    "type": "Section",
+    "children": []
   }
 ]
