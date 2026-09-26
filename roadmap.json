@@ -41,19 +41,6 @@
     "type": "Section",
     "children": [
       {
-        "id": "custom-muiidzso-zgtp29",
-        "name": "HTML",
-        "description": "This is the skeleton of frontend",
-        "status": "in-progress",
-        "difficulty": "easy",
-        "priority": "medium",
-        "targetDate": "2026-09-28",
-        "notes": "",
-        "resources": [],
-        "type": "Topic",
-        "children": []
-      },
-      {
         "id": "custom-muiif2a8-1aee42",
         "name": "HTML",
         "description": "",
