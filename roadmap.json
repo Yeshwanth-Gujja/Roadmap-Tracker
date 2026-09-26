@@ -142,6 +142,19 @@
             "resources": [],
             "type": "Section",
             "children": []
+          },
+          {
+            "id": "custom-muiivmcw-bs4lxw",
+            "name": "Standard Attributes",
+            "description": "",
+            "status": "not-started",
+            "difficulty": "medium",
+            "priority": "medium",
+            "targetDate": "",
+            "notes": "",
+            "resources": [],
+            "type": "Section",
+            "children": []
           }
         ],
         "_open": true
