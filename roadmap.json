@@ -40,5 +40,18 @@
     "resources": [],
     "type": "Section",
     "children": []
+  },
+  {
+    "id": "custom-muiibsto-409no2",
+    "name": "Devops",
+    "description": "",
+    "status": "not-started",
+    "difficulty": "medium",
+    "priority": "medium",
+    "targetDate": "",
+    "notes": "",
+    "resources": [],
+    "type": "Section",
+    "children": []
   }
 ]
