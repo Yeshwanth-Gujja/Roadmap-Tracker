@@ -1,6 +1,6 @@
 [
   {
-    "id": null,
+    "id": "custom-mul1ug70-nkomx7",
     "name": "HTML",
     "type": "Section",
     "description": "Complete HTML roadmap from fundamentals through advanced HTML, accessibility, browser concepts, security, and practical projects.",
@@ -4344,5 +4344,18 @@
         ]
       }
     ]
+  },
+  {
+    "id": "custom-mul1v3fd-vac7jf",
+    "name": "YESH",
+    "description": "",
+    "status": "not-started",
+    "difficulty": "medium",
+    "priority": "medium",
+    "targetDate": "",
+    "notes": "",
+    "resources": [],
+    "type": "Section",
+    "children": []
   }
 ]
