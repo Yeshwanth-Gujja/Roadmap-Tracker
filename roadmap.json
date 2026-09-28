@@ -2,6 +2,7 @@
   {
     "id": "custom-mul8inog-65uwc0",
     "name": "Frontend",
+    "type": "Section",
     "description": "A complete frontend roadmap with all the technologies required",
     "status": "not-started",
     "difficulty": "medium",
@@ -9,7 +10,6 @@
     "targetDate": "",
     "notes": "",
     "resources": [],
-    "type": "Section",
     "children": [
       {
         "id": "custom-mul1ug70-nkomx7",
@@ -380,7 +380,7 @@
                 "name": "Start & End Tags",
                 "type": "Skill",
                 "description": "",
-                "status": "not-started",
+                "status": "completed",
                 "difficulty": "medium",
                 "priority": "medium",
                 "targetDate": "",
@@ -505,7 +505,8 @@
                 "resources": [],
                 "children": []
               }
-            ]
+            ],
+            "_open": true
           },
           {
             "id": "html-038",
@@ -4356,7 +4357,7 @@
             ]
           }
         ],
-        "_open": false
+        "_open": true
       },
       {
         "id": "custom-mul8ig12-z8ply6",
