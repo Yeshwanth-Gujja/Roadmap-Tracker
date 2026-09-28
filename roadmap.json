@@ -204,7 +204,8 @@
                 "resources": [],
                 "children": []
               }
-            ]
+            ],
+            "_open": true
           },
           {
             "id": "html-015",
@@ -506,7 +507,7 @@
                 "children": []
               }
             ],
-            "_open": true
+            "_open": false
           },
           {
             "id": "html-038",
