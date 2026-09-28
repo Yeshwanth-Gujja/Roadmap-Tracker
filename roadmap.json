@@ -4356,6 +4356,20 @@
     "notes": "",
     "resources": [],
     "type": "Section",
-    "children": []
+    "children": [
+      {
+        "id": "custom-mul1v8q0-lf6bnm",
+        "name": "Y1",
+        "description": "",
+        "status": "not-started",
+        "difficulty": "medium",
+        "priority": "medium",
+        "targetDate": "",
+        "notes": "",
+        "resources": [],
+        "type": "Section",
+        "children": []
+      }
+    ]
   }
 ]
