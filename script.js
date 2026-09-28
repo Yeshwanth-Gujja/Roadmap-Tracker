@@ -290,51 +290,107 @@
     );
   }
 
+  function dropPosition(e, el) {
+    const rect = el.getBoundingClientRect();
+    const y = e.clientY - rect.top;
+    const h = rect.height;
+
+    if (y < h * 0.25) return 'before';
+    if (y > h * 0.75) return 'after';
+    return 'child';
+  }
+
   function setupDrag(el, n, parent) {
+    const isSection = n.type === 'Section' || n.children.length > 0;
+    // For sections, attach drop handlers to the header only.
+    // For leaves, keep the handler on the whole leaf.
+    const handle = isSection ? (el.querySelector('.head') || el) : el;
+
     el.addEventListener('dragstart', e => {
-      drag = { n, parent };
+      // Stop bubbling so ancestor wraps don't overwrite `drag`
+      // with their own node. This is what made nested nodes move
+      // the entire ancestor chain.
+      e.stopPropagation();
+      drag = { n, parent, dropEl: null };
       e.dataTransfer.effectAllowed = 'move';
-      el.style.opacity = '.45'
+      e.dataTransfer.setData('text/plain', n.id);
+      el.style.opacity = '.45';
     });
 
-    el.addEventListener('dragend', () => {
+    el.addEventListener('dragend', e => {
+      e.stopPropagation();
       el.style.opacity = '';
-      drag = null
+      if (drag && drag.dropEl) {
+        drag.dropEl.classList.remove('drop-before', 'drop-child', 'drop-after');
+      }
+      drag = null;
     });
 
-    el.addEventListener('dragover', e => {
-      e.preventDefault();
-      e.dataTransfer.dropEffect = 'move'
+    handle.addEventListener('dragleave', e => {
+      e.stopPropagation();
+      handle.classList.remove('drop-before', 'drop-child', 'drop-after');
     });
 
-    el.addEventListener('drop', e => {
-      e.preventDefault();
+    handle.addEventListener('dragover', e => {
+      if (!drag || drag.n.id === n.id || isInside(drag.n, n)) return;
 
-      if (!drag || drag.n.id === n.id) return;
-      if (isInside(drag.n, n)) return;
+      e.preventDefault();
+      e.stopPropagation();
+      e.dataTransfer.dropEffect = 'move';
+
+      const pos = dropPosition(e, handle);
+      if (!pos) return;
+
+      if (drag.dropEl && drag.dropEl !== handle) {
+        drag.dropEl.classList.remove('drop-before', 'drop-child', 'drop-after');
+      }
+
+      drag.dropEl = handle;
+      handle.classList.remove('drop-before', 'drop-child', 'drop-after');
+      handle.classList.add('drop-' + pos);
+    });
+
+    handle.addEventListener('drop', e => {
+      e.preventDefault();
+      e.stopPropagation();
+
+      if (drag && drag.dropEl) {
+        drag.dropEl.classList.remove('drop-before', 'drop-child', 'drop-after');
+        drag.dropEl = null;
+      }
+
+      if (!drag || drag.n.id === n.id || isInside(drag.n, n)) return;
+
+      const pos = dropPosition(e, handle);
+      if (!pos) return;
 
       const from = drag.parent ? drag.parent.children : roadmap;
 
-      if (n.type === 'Section' || n.children.length > 0) {
-        const i = from.indexOf(drag.n);
-
-        if (i >= 0) {
-          from.splice(i, 1);
+      if (pos === 'child') {
+        change(() => {
+          const i = from.indexOf(drag.n);
+          if (i >= 0) from.splice(i, 1);
           n.children.push(drag.n);
-          saveAndCommit('Move ' + drag.n.name + ' into ' + n.name)
-        }
+        }, 'Move ' + drag.n.name + ' into ' + n.name);
+      } else {
+        const targetArray = parent ? parent.children : roadmap;
 
-      } else if (from === (parent ? parent.children : roadmap)) {
-        const a = from.indexOf(drag.n),
-          b = from.indexOf(n);
+        change(() => {
+          const i = from.indexOf(drag.n);
+          if (i >= 0) from.splice(i, 1);
 
-        if (a >= 0 && b >= 0) {
-          from.splice(a, 1);
-          from.splice(from.indexOf(n), 0, drag.n);
-          saveAndCommit('Reorder ' + drag.n.name)
-        }
+          let idx = targetArray.findIndex(x => x.id === n.id);
+          if (idx === -1) idx = targetArray.length;
+
+          if (pos === 'before') {
+            targetArray.splice(idx, 0, drag.n);
+          } else {
+            targetArray.splice(idx + 1, 0, drag.n);
+          }
+        }, 'Move ' + drag.n.name + ' ' +
+           (pos === 'before' ? 'before' : 'after') + ' ' + n.name);
       }
-    })
+    });
   }
 
   function isInside(a, b) {

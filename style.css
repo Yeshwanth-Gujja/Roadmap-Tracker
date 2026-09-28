@@ -606,4 +606,18 @@ main {
 
     .hero>strong {
         font-size: 35px;
-    } }
+    }
+
+    .drop-before {
+        box-shadow: inset 0 3px 0 0 var(--accent) !important;
+    }
+
+    .drop-after {
+        box-shadow: inset 0 -3px 0 0 var(--accent) !important;
+    }
+
+    .drop-child {
+        outline: 2px dashed var(--accent);
+        outline-offset: 2px;
+        background: var(--soft) !important;   }
+}
