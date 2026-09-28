@@ -4343,7 +4343,8 @@
           }
         ]
       }
-    ]
+    ],
+    "_open": false
   },
   {
     "id": "custom-mul8ig12-z8ply6",
@@ -7638,7 +7639,7 @@
   {
     "id": "custom-mul8inog-65uwc0",
     "name": "Frontend",
-    "description": "",
+    "description": "A complete frontend roadmap with all the technologies required",
     "status": "not-started",
     "difficulty": "medium",
     "priority": "medium",
@@ -7646,6 +7647,7 @@
     "notes": "",
     "resources": [],
     "type": "Section",
-    "children": []
+    "children": [],
+    "_open": false
   }
 ]
